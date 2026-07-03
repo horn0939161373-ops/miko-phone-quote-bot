@@ -1,0 +1,61 @@
+name: 米可手機報價通知
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: phone-quote
+  cancel-in-progress: false
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Run phone quote script
+        env:
+          LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
+          LINE_TARGET_ID: ${{ secrets.LINE_TARGET_ID }}
+        run: node src/index.js
+
+      - name: Commit updated data and state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/phones.json state/last-prices.json
+          git diff --cached --quiet && exit 0
+
+          git commit -m "chore: 更新米可手機報價資料 [skip ci]"
+          # 手動觸發跟排程觸發偶爾會重疊，push 前先 rebase 到最新 main 再重試，
+          # 避免單純的 race condition 讓整次執行判定失敗。
+          for i in 1 2 3 4 5; do
+            git push && exit 0
+            echo "push 被拒絕（第 $i 次），rebase 到最新 main 後重試..."
+            git pull --rebase origin main
+          done
+          echo "重試 5 次後仍 push 失敗" >&2
+          exit 1
