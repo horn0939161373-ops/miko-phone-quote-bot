@@ -2,7 +2,9 @@ name: 米可手機報價通知
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    # 測試排程：GitHub 官方支援的最短間隔（每 5 分鐘），先確認排程本身
+    # 真的會自動觸發，確認沒問題後記得改回正式間隔（例如每小時 '0 * * * *'）。
+    - cron: '*/5 * * * *'
   workflow_dispatch: {}
 
 permissions:
