@@ -2,9 +2,12 @@ name: 米可手機報價通知
 
 on:
   schedule:
-    # 測試排程：GitHub 官方支援的最短間隔（每 5 分鐘），先確認排程本身
-    # 真的會自動觸發，確認沒問題後記得改回正式間隔（例如每小時 '0 * * * *'）。
-    - cron: '*/5 * * * *'
+    # 已確認過：這個帳號的 schedule 觸發器目前不會自動動作（手動
+    # workflow_dispatch 一律正常，但 cron 排程從沒被 GitHub 排進去執行
+    # 過，橫跨 4 小時、每 5 分鐘的測試window 完全沒有任何一次自動觸發）。
+    # cron 設定先照正式間隔（每小時）放著，等這個帳號的排程功能恢復
+    # 正常就會照這個頻率跑；目前實務上要靠手動 workflow_dispatch。
+    - cron: '0 * * * *'
   workflow_dispatch: {}
 
 permissions:
@@ -41,14 +44,17 @@ jobs:
       - name: Run phone quote script
         env:
           LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
-          LINE_TARGET_ID: ${{ secrets.LINE_TARGET_ID }}
         run: node src/index.js
 
       - name: Commit updated data and state
+        # 就算上面那個 step 失敗（例如抓取失敗），也要照樣把 docs/status.json
+        # 裡記錄的失敗原因 commit 上去，後台儀表板的「抓取執行紀錄」才看得到
+        # 這次失敗，而不是整批資料都不會更新。
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/phones.json state/last-prices.json
+          git add docs/phones.json docs/history.json docs/status.json state/last-prices.json
           git diff --cached --quiet && exit 0
 
           git commit -m "chore: 更新米可手機報價資料 [skip ci]"

@@ -63,11 +63,13 @@ function buildBubble(item) {
   };
 }
 
-async function pushPriceUpdates(items) {
+// targetId 是這次要推播的對象（訂閱者自己填在 watchlist.json 裡的
+// lineTargetId），channel token 是所有訂閱者共用同一組（同一個 LINE
+// Messaging API channel 本來就能推給多個不同對象）。
+async function pushPriceUpdates(items, targetId) {
   const token = process.env.LINE_CHANNEL_ACCESS_TOKEN;
-  const targetId = process.env.LINE_TARGET_ID;
   if (!token || !targetId) {
-    throw new Error('尚未設定 LINE_CHANNEL_ACCESS_TOKEN 或 LINE_TARGET_ID 環境變數');
+    throw new Error('尚未設定 LINE_CHANNEL_ACCESS_TOKEN，或這位訂閱者沒有 lineTargetId');
   }
 
   const bubbles = items.slice(0, 10).map(buildBubble);
