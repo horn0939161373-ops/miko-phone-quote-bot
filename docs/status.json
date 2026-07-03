@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "at": "2026-07-03T17:12:44.041Z",
+    "ok": true,
+    "error": null,
+    "phoneCount": 170,
+    "pushCount": 0
+  }
+]
