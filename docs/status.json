@@ -12,5 +12,12 @@
     "error": null,
     "phoneCount": 170,
     "pushCount": 0
+  },
+  {
+    "at": "2026-07-04T05:06:22.803Z",
+    "ok": true,
+    "error": null,
+    "phoneCount": 170,
+    "pushCount": 1
   }
 ]
