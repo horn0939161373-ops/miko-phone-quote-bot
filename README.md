@@ -54,6 +54,13 @@ GitHub Pages（docs/ 資料夾）
 
 ## 怎麼選要追蹤的手機（每個人都可以自己來一次）
 
+有兩種方式，效果一樣，選一種就好：
+
+- **方式 A：在 LINE 裡面點幾下就完成**（推薦，但需要多做一次性設定）——見下面「[LIFF 訂閱：在 LINE 裡面點幾下就完成](#liff-訂閱在-line-裡面點幾下就完成)」
+- **方式 B：網頁勾選 → 手動貼進 GitHub**（不需要額外設定，但每次新增/修改訂閱都要手動編輯檔案）——照下面步驟
+
+### 方式 B 步驟
+
 1. 打開上面設定好的 GitHub Pages 網頁（`docs/index.html`）
 2. **先把這個 LINE Bot 加為好友**——LINE 平台規定，Bot 沒辦法推播訊息給還沒加好友的人，這步驟每個訂閱者都要自己做，沒辦法用程式代勞
 3. 填自己的名字、自己的 LINE User ID（在 LINE Developers Console 的 channel「Basic settings」頁籤可以找到，`U` 開頭）
@@ -66,6 +73,14 @@ GitHub Pages（docs/ 資料夾）
 8. 等下一次排程執行（或到 Actions 頁籤手動 `Run workflow`），有新報價或降價就會推播到你的 LINE
 
 網頁第一次打開時 `docs/phones.json` 會是空的（`[]`），要等排程第一次成功執行完才會有資料。
+
+## LIFF 訂閱：在 LINE 裡面點幾下就完成
+
+`docs/liff.html` 是一個 **LIFF（LINE Front-end Framework）** 頁面——從 LINE 裡面打開，會自動知道是「誰」在用（不用自己複製貼上 LINE User ID），勾選手機、按送出，就直接完成訂閱，不用碰 GitHub 網頁。
+
+這個體驗需要多一塊「即時接收請求」的小後端（GitHub Actions 只能排程或手動觸發，沒辦法即時回應），架在免費的 **Cloudflare Workers** 上。完整設定步驟（申請 Cloudflare 帳號、部署 worker、在 LINE Developers Console 建立 LIFF app）在 [`worker/README.md`](./worker/README.md)，這些都是一次性設定，設定好之後你自己跟朋友都只要「打開連結 → 勾選 → 送出」三個動作。
+
+設定好之後，把 `https://liff.line.me/<你的 LIFF ID>` 這個連結分享給想訂閱的人（貼在 LINE 對話裡就是一個可以點的連結），點開來就是選手機的頁面。
 
 ## `watchlist.json` 格式
 

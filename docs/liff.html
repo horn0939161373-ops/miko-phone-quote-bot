@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>米可報價訂閱（LINE）</title>
+<script charset="utf-8" src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #f7f8fa;
+    --card: #ffffff;
+    --card-soft: #f5f6f8;
+    --text: #0b0b0b;
+    --muted: #52514e;
+    --faint: #898781;
+    --border: rgba(11,11,11,0.09);
+    --border-strong: rgba(11,11,11,0.16);
+    --accent: #2a78d6;
+    --accent-soft: rgba(42,120,214,0.10);
+    --accent-contrast: #ffffff;
+    --danger: #d03b3b;
+    --good: #0ca30c;
+    --shadow-sm: 0 1px 2px rgba(11,11,11,0.04);
+    --shadow-md: 0 6px 20px rgba(11,11,11,0.06);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0d0d0d;
+      --card: #171714;
+      --card-soft: #1d1d19;
+      --text: #ffffff;
+      --muted: #c3c2b7;
+      --faint: #898781;
+      --border: rgba(255,255,255,0.10);
+      --border-strong: rgba(255,255,255,0.18);
+      --accent: #3987e5;
+      --accent-soft: rgba(57,135,229,0.16);
+      --danger: #e66767;
+      --good: #0ca30c;
+      --shadow-sm: 0 1px 2px rgba(0,0,0,0.3);
+      --shadow-md: 0 8px 24px rgba(0,0,0,0.35);
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang TC", "Noto Sans TC", sans-serif;
+    background: var(--bg); color: var(--text); line-height: 1.5; -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 520px; margin: 0 auto; padding: 18px 16px 100px; }
+  .profile { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
+  .profile img { width: 40px; height: 40px; border-radius: 50%; }
+  .profile .hi { font-size: 0.95rem; }
+  .profile .hi b { font-weight: 700; }
+
+  h1 { font-size: 1.25rem; margin: 0 0 4px; }
+  .subtitle { color: var(--muted); font-size: 0.85rem; margin: 0 0 16px; }
+
+  .toolbar { display: flex; gap: 8px; margin-bottom: 12px; position: sticky; top: 0; background: var(--bg); padding: 10px 0; z-index: 5; }
+  input[type="search"] {
+    flex: 1; padding: 11px 14px; border-radius: 10px; border: 1px solid var(--border-strong);
+    background: var(--card); color: var(--text); font-size: 0.94rem;
+  }
+  input[type="search"]:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+  .count-pill {
+    display: inline-flex; align-items: center; background: var(--card); border: 1px solid var(--border);
+    border-radius: 999px; padding: 8px 14px; font-size: 0.8rem; color: var(--muted); white-space: nowrap; box-shadow: var(--shadow-sm);
+  }
+
+  .status { color: var(--muted); font-size: 0.9rem; padding: 40px 16px; text-align: center; }
+  .status.error { color: var(--danger); }
+
+  .list { display: flex; flex-direction: column; gap: 8px; }
+  .item {
+    display: flex; gap: 10px; align-items: flex-start; background: var(--card);
+    border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px; cursor: pointer;
+    box-shadow: var(--shadow-sm); transition: border-color 0.15s, background 0.15s;
+  }
+  .item.selected { border-color: var(--accent); background: var(--accent-soft); box-shadow: 0 0 0 1.5px var(--accent) inset; }
+  .item input[type="checkbox"] { margin-top: 3px; width: 18px; height: 18px; accent-color: var(--accent); flex-shrink: 0; }
+  .item .title { font-size: 0.9rem; font-weight: 600; }
+  .item .price { font-size: 0.85rem; color: var(--accent); font-weight: 700; margin-top: 2px; }
+
+  .submit-bar {
+    position: fixed; left: 0; right: 0; bottom: 0; padding: 14px 16px calc(14px + env(safe-area-inset-bottom));
+    background: linear-gradient(to top, var(--bg) 60%, transparent); display: flex; justify-content: center;
+  }
+  .submit-bar button {
+    width: 100%; max-width: 520px; border: none; border-radius: 12px; padding: 14px; font-size: 1rem; font-weight: 700;
+    background: var(--accent); color: var(--accent-contrast); cursor: pointer; box-shadow: var(--shadow-md);
+  }
+  .submit-bar button:disabled { opacity: 0.4; cursor: not-allowed; }
+  .result { text-align: center; padding: 60px 16px; }
+  .result .big { font-size: 2.4rem; margin-bottom: 10px; }
+  .result h2 { margin: 0 0 6px; font-size: 1.2rem; }
+  .result p { color: var(--muted); font-size: 0.88rem; }
+</style>
+</head>
+<body>
+<div class="wrap" id="app">
+  <div class="status" id="status">正在連接 LINE...</div>
+</div>
+
+<script>
+  // ⚠️ 這兩個值需要在設定好 LIFF app、部署好 Cloudflare Worker 之後填入，
+  // 詳見 worker/README.md 跟根目錄 README.md 的「LIFF 訂閱」章節。
+  const LIFF_ID = 'REPLACE_WITH_YOUR_LIFF_ID';
+  const WORKER_URL = 'https://REPLACE_WITH_YOUR_WORKER_SUBDOMAIN.workers.dev/subscribe';
+
+  const app = document.getElementById('app');
+  let phones = [];
+  let profile = null;
+  const selected = new Map(); // id -> title
+
+  function renderShell() {
+    app.innerHTML = `
+      <div class="profile" id="profileRow" style="display:none">
+        <img id="profileImg" alt="">
+        <div class="hi">Hi, <b id="profileName"></b> 👋</div>
+      </div>
+      <h1>📱 選你想追蹤的手機</h1>
+      <p class="subtitle">勾選後按下方「送出」，之後有降價或新報價會直接推播到這個 LINE 帳號。</p>
+      <div class="toolbar">
+        <input type="search" id="search" placeholder="搜尋機型...">
+        <span class="count-pill" id="countPill">0 支</span>
+      </div>
+      <div id="status" class="status" style="display:none"></div>
+      <div class="list" id="list"></div>
+      <div class="submit-bar"><button id="submitBtn" disabled>送出（尚未勾選）</button></div>
+    `;
+  }
+
+  function renderList(list) {
+    const listEl = document.getElementById('list');
+    const statusEl = document.getElementById('status');
+    listEl.innerHTML = '';
+    if (!list.length) {
+      statusEl.textContent = phones.length ? '沒有符合搜尋條件的機型' : '目前還沒有報價資料。';
+      statusEl.style.display = 'block';
+      return;
+    }
+    statusEl.style.display = 'none';
+    const frag = document.createDocumentFragment();
+    for (const p of list) {
+      const label = document.createElement('label');
+      label.className = 'item' + (selected.has(p.id) ? ' selected' : '');
+      label.innerHTML = `<input type="checkbox" ${selected.has(p.id) ? 'checked' : ''}><div><div class="title"></div><div class="price"></div></div>`;
+      label.querySelector('.title').textContent = p.title;
+      label.querySelector('.price').textContent = p.price ? ('$' + p.price.toLocaleString('en-US')) : '';
+      const checkbox = label.querySelector('input');
+      checkbox.addEventListener('change', () => {
+        if (checkbox.checked) selected.set(p.id, p.title);
+        else selected.delete(p.id);
+        label.classList.toggle('selected', checkbox.checked);
+        updateSubmitState();
+      });
+      frag.appendChild(label);
+    }
+    listEl.appendChild(frag);
+  }
+
+  function updateSubmitState() {
+    const countPill = document.getElementById('countPill');
+    const btn = document.getElementById('submitBtn');
+    if (countPill) countPill.textContent = `已選 ${selected.size} 支`;
+    if (btn) {
+      btn.disabled = selected.size === 0;
+      btn.textContent = selected.size ? `送出（${selected.size} 支）` : '送出（尚未勾選）';
+    }
+  }
+
+  function applyFilter() {
+    const search = document.getElementById('search');
+    const kw = (search.value || '').trim().toLowerCase();
+    const list = kw ? phones.filter(p => p.title.toLowerCase().includes(kw)) : phones;
+    renderList(list);
+  }
+
+  function showResult(icon, title, desc) {
+    app.innerHTML = `<div class="result"><div class="big">${icon}</div><h2></h2><p></p></div>`;
+    app.querySelector('h2').textContent = title;
+    app.querySelector('p').textContent = desc;
+  }
+
+  async function submit() {
+    const btn = document.getElementById('submitBtn');
+    btn.disabled = true;
+    btn.textContent = '送出中...';
+    try {
+      const idToken = liff.getIDToken();
+      if (!idToken) throw new Error('沒有取得 LINE 登入憑證，請重新整理這個頁面');
+
+      const res = await fetch(WORKER_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ idToken, phones: Array.from(selected.values()) })
+      });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok || !data.ok) throw new Error(data.error || ('HTTP ' + res.status));
+
+      showResult('✅', '設定完成！', `已幫「${data.name}」更新關注清單，共 ${data.phoneCount} 支手機。有新報價或降價會推播到這裡。`);
+      setTimeout(() => { try { liff.closeWindow(); } catch (e) {} }, 2200);
+    } catch (err) {
+      showResult('⚠️', '送出失敗', err.message || String(err));
+    }
+  }
+
+  async function boot() {
+    try {
+      await liff.init({ liffId: LIFF_ID });
+      if (!liff.isLoggedIn()) {
+        liff.login();
+        return;
+      }
+
+      renderShell();
+      document.getElementById('search').addEventListener('input', applyFilter);
+      document.getElementById('submitBtn').addEventListener('click', submit);
+
+      try {
+        profile = await liff.getProfile();
+        document.getElementById('profileRow').style.display = 'flex';
+        document.getElementById('profileName').textContent = profile.displayName || '';
+        if (profile.pictureUrl) document.getElementById('profileImg').src = profile.pictureUrl;
+      } catch (e) {
+        // 拿不到 profile 不影響主要功能，安靜略過
+      }
+
+      const [phonesData, watchlistData] = await Promise.all([
+        fetch('./phones.json', { cache: 'no-store' }).then(r => r.ok ? r.json() : []).catch(() => []),
+        fetch('./watchlist.json', { cache: 'no-store' }).then(r => r.ok ? r.json() : []).catch(() => [])
+      ]);
+
+      phones = Array.isArray(phonesData) ? phonesData.filter(p => p && p.title) : [];
+      phones.sort((a, b) => a.title.localeCompare(b.title, 'zh-Hant'));
+
+      // 如果這個人之前已經訂閱過，預先勾好他原本選的手機（用 LINE User ID 比對）
+      if (profile && Array.isArray(watchlistData)) {
+        const mine = watchlistData.find(s => s && s.lineTargetId === profile.userId);
+        if (mine && Array.isArray(mine.phones)) {
+          for (const title of mine.phones) selected.set(title, title);
+        }
+      }
+
+      updateSubmitState();
+      applyFilter();
+    } catch (err) {
+      app.innerHTML = `<div class="status error">初始化失敗：${(err && err.message) || err}（請確認是從 LINE 裡面打開這個頁面）</div>`;
+    }
+  }
+
+  boot();
+</script>
+</body>
+</html>
