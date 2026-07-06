@@ -75,5 +75,12 @@
     "error": null,
     "phoneCount": 170,
     "pushCount": 0
+  },
+  {
+    "at": "2026-07-06T13:03:43.532Z",
+    "ok": true,
+    "error": null,
+    "phoneCount": 170,
+    "pushCount": 1
   }
 ]
