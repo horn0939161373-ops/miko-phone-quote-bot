@@ -992,14 +992,6 @@
     "url": "https://www.miko3c.com/price/phone/"
   },
   {
-    "id": "vivo V60 (512GB)",
-    "title": "vivo V60 (512GB)",
-    "price": 12290,
-    "msrp": 19990,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
     "id": "Google Pixel 10 Pro XL",
     "title": "Google Pixel 10 Pro XL",
     "price": 29990,
@@ -1250,16 +1242,8 @@
   {
     "id": "Google Pixel 9 Pro Fold (256GB)",
     "title": "Google Pixel 9 Pro Fold (256GB)",
-    "price": 31990,
+    "price": 29990,
     "msrp": 56990,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
-    "id": "Google Pixel 9 Pro Fold (512GB)",
-    "title": "Google Pixel 9 Pro Fold (512GB)",
-    "price": 33990,
-    "msrp": 60990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
