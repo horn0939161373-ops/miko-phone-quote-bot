@@ -10,7 +10,7 @@
   {
     "id": "Apple 蘋果 iPhone 17e (512GB)",
     "title": "Apple 蘋果 iPhone 17e (512GB)",
-    "price": 25490,
+    "price": 25790,
     "msrp": 28900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -90,7 +90,7 @@
   {
     "id": "Apple 蘋果 iPhone 17 (256GB)",
     "title": "Apple 蘋果 iPhone 17 (256GB)",
-    "price": 27090,
+    "price": 27490,
     "msrp": 29900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -98,7 +98,7 @@
   {
     "id": "Apple 蘋果 iPhone 17 (512GB)",
     "title": "Apple 蘋果 iPhone 17 (512GB)",
-    "price": 33790,
+    "price": 33990,
     "msrp": 36900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -218,8 +218,16 @@
   {
     "id": "realme 16",
     "title": "realme 16",
-    "price": 12490,
+    "price": 12190,
     "msrp": 14990,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "Motorola razr fold (單機版)",
+    "title": "Motorola razr fold (單機版)",
+    "price": 44990,
+    "msrp": 49988,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
@@ -610,7 +618,7 @@
   {
     "id": "SAMSUNG 三星 Galaxy S26 Ultra (512GB)",
     "title": "SAMSUNG 三星 Galaxy S26 Ultra (512GB)",
-    "price": 39890,
+    "price": 39790,
     "msrp": 50900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
