@@ -18,7 +18,7 @@
   {
     "id": "Apple 蘋果 iPhone 17 Pro Max (256GB)",
     "title": "Apple 蘋果 iPhone 17 Pro Max (256GB)",
-    "price": 41490,
+    "price": 41390,
     "msrp": 44900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -434,7 +434,7 @@
   {
     "id": "SAMSUNG 三星 Galaxy A57 5G (8G/256G)",
     "title": "SAMSUNG 三星 Galaxy A57 5G (8G/256G)",
-    "price": 12990,
+    "price": 12890,
     "msrp": 17990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -442,7 +442,7 @@
   {
     "id": "SAMSUNG 三星 Galaxy A57 5G (12G/256G)",
     "title": "SAMSUNG 三星 Galaxy A57 5G (12G/256G)",
-    "price": 13890,
+    "price": 13790,
     "msrp": 19490,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -642,7 +642,7 @@
   {
     "id": "Google Pixel 10a (256GB)",
     "title": "Google Pixel 10a (256GB)",
-    "price": 14990,
+    "price": 14790,
     "msrp": 19990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -808,14 +808,6 @@
     "url": "https://www.miko3c.com/price/phone/"
   },
   {
-    "id": "OPPO Reno15 F 5G (8+256GB)",
-    "title": "OPPO Reno15 F 5G (8+256GB)",
-    "price": 8890,
-    "msrp": 15990,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
     "id": "OPPO Reno15 Pro 5G (夜漠棕)",
     "title": "OPPO Reno15 Pro 5G (夜漠棕)",
     "price": 16490,
@@ -890,7 +882,7 @@
   {
     "id": "POCO F8 Ultra (12+256GB)",
     "title": "POCO F8 Ultra (12+256GB)",
-    "price": 20690,
+    "price": 19990,
     "msrp": 21999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -898,7 +890,7 @@
   {
     "id": "POCO F8 Ultra (16+512GB)",
     "title": "POCO F8 Ultra (16+512GB)",
-    "price": 22490,
+    "price": 22190,
     "msrp": 23999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -1138,7 +1130,15 @@
   {
     "id": "SAMSUNG 三星 Galaxy A26 5G (深潛黑)",
     "title": "SAMSUNG 三星 Galaxy A26 5G (深潛黑)",
-    "price": 6890,
+    "price": 7290,
+    "msrp": 11990,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "SAMSUNG 三星 Galaxy A26 5G (浪花白)",
+    "title": "SAMSUNG 三星 Galaxy A26 5G (浪花白)",
+    "price": 7190,
     "msrp": 11990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -1146,7 +1146,7 @@
   {
     "id": "SAMSUNG 三星 Galaxy A26 5G (度假綠)",
     "title": "SAMSUNG 三星 Galaxy A26 5G (度假綠)",
-    "price": 6990,
+    "price": 7290,
     "msrp": 11990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
