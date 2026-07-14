@@ -1010,7 +1010,7 @@
   {
     "id": "Google Pixel 10 Pro (256GB)",
     "title": "Google Pixel 10 Pro (256GB)",
-    "price": 27990,
+    "price": 27890,
     "msrp": 36990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -1032,8 +1032,8 @@
     "url": "https://www.miko3c.com/price/phone/"
   },
   {
-    "id": "SAMSUNG 三星 Galaxy A17 5G",
-    "title": "SAMSUNG 三星 Galaxy A17 5G",
+    "id": "SAMSUNG 三星 Galaxy A17 5G (6G/128G&快閃灰)",
+    "title": "SAMSUNG 三星 Galaxy A17 5G (6G/128G&快閃灰)",
     "price": 5290,
     "msrp": 7490,
     "cover": "",
@@ -1244,14 +1244,6 @@
     "title": "Google Pixel 9 Pro Fold (256GB)",
     "price": 29990,
     "msrp": 56990,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
-    "id": "Redmi 紅米 13C 5G",
-    "title": "Redmi 紅米 13C 5G",
-    "price": 3190,
-    "msrp": 5999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
