@@ -408,30 +408,6 @@
     "url": "https://www.miko3c.com/price/phone/"
   },
   {
-    "id": "SAMSUNG 三星 Galaxy A57 5G (8G/256G)",
-    "title": "SAMSUNG 三星 Galaxy A57 5G (8G/256G)",
-    "price": 12790,
-    "msrp": 17990,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
-    "id": "SAMSUNG 三星 Galaxy A57 5G (12G/256G)",
-    "title": "SAMSUNG 三星 Galaxy A57 5G (12G/256G)",
-    "price": 13690,
-    "msrp": 19490,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
-    "id": "SAMSUNG 三星 Galaxy A57 5G (12G/512G)",
-    "title": "SAMSUNG 三星 Galaxy A57 5G (12G/512G)",
-    "price": 18390,
-    "msrp": 22490,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
     "id": "vivo Y05 4G (曜石黑)",
     "title": "vivo Y05 4G (曜石黑)",
     "price": 3690,
@@ -882,7 +858,7 @@
   {
     "id": "Google Pixel 10 Pro Fold (512GB)",
     "title": "Google Pixel 10 Pro Fold (512GB)",
-    "price": 43990,
+    "price": 44990,
     "msrp": 60990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -924,14 +900,6 @@
     "title": "SAMSUNG 三星 Galaxy S25 FE (深海藍)",
     "price": 15390,
     "msrp": 22990,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
-    "id": "vivo V60 (256GB)",
-    "title": "vivo V60 (256GB)",
-    "price": 10790,
-    "msrp": 17990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
