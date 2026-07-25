@@ -66,7 +66,7 @@
   {
     "id": "Apple 蘋果 iPhone Air (256GB)",
     "title": "Apple 蘋果 iPhone Air (256GB)",
-    "price": 30990,
+    "price": 30890,
     "msrp": 36900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -220,6 +220,22 @@
     "title": "OPPO Reno16 F (8/256GB)",
     "price": 13490,
     "msrp": 19990,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "SAMSUNG 三星 Galaxy A27 5G (128GB)",
+    "title": "SAMSUNG 三星 Galaxy A27 5G (128GB)",
+    "price": 8990,
+    "msrp": 11990,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "SAMSUNG 三星 Galaxy A27 5G (256GB)",
+    "title": "SAMSUNG 三星 Galaxy A27 5G (256GB)",
+    "price": 11290,
+    "msrp": 13490,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
@@ -1000,8 +1016,8 @@
     "url": "https://www.miko3c.com/price/phone/"
   },
   {
-    "id": "SAMSUNG 三星 Galaxy A17 5G",
-    "title": "SAMSUNG 三星 Galaxy A17 5G",
+    "id": "SAMSUNG 三星 Galaxy A17 5G (6G/128G&快閃灰)",
+    "title": "SAMSUNG 三星 Galaxy A17 5G (6G/128G&快閃灰)",
     "price": 5490,
     "msrp": 7490,
     "cover": "",
