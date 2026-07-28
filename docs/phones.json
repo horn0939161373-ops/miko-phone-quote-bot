@@ -72,6 +72,14 @@
     "url": "https://www.miko3c.com/price/phone/"
   },
   {
+    "id": "Apple 蘋果 iPhone Air (1TB)",
+    "title": "Apple 蘋果 iPhone Air (1TB)",
+    "price": 39990,
+    "msrp": 50900,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
     "id": "Apple 蘋果 iPhone 17 (256GB)",
     "title": "Apple 蘋果 iPhone 17 (256GB)",
     "price": 27990,
@@ -722,7 +730,7 @@
   {
     "id": "SAMSUNG 三星 Galaxy A07",
     "title": "SAMSUNG 三星 Galaxy A07",
-    "price": 4190,
+    "price": 4290,
     "msrp": 5990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -882,7 +890,7 @@
   {
     "id": "POCO F8 Ultra (16+512GB)",
     "title": "POCO F8 Ultra (16+512GB)",
-    "price": 22190,
+    "price": 21990,
     "msrp": 23999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -1114,7 +1122,7 @@
   {
     "id": "SAMSUNG 三星 Galaxy A56 5G (8G/256G)",
     "title": "SAMSUNG 三星 Galaxy A56 5G (8G/256G)",
-    "price": 9990,
+    "price": 10290,
     "msrp": 16990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
