@@ -96,6 +96,14 @@
     "url": "https://www.miko3c.com/price/phone/"
   },
   {
+    "id": "HONOR 600 Pro (12G/512G)",
+    "title": "HONOR 600 Pro (12G/512G)",
+    "price": 26990,
+    "msrp": 29990,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
     "id": "HONOR 600 (12G/256G)",
     "title": "HONOR 600 (12G/256G)",
     "price": 16990,
@@ -212,6 +220,22 @@
     "title": "SAMSUNG 三星 Galaxy Z Flip8 (512GB)",
     "price": 38900,
     "msrp": 44900,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "SHARP AQUOS R11 (12G/256G)",
+    "title": "SHARP AQUOS R11 (12G/256G)",
+    "price": 24490,
+    "msrp": 26990,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "SHARP AQUOS R11 (12G/512G)",
+    "title": "SHARP AQUOS R11 (12G/512G)",
+    "price": 27790,
+    "msrp": 29990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
