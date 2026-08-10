@@ -256,6 +256,22 @@
     "url": "https://www.miko3c.com/price/phone/"
   },
   {
+    "id": "OPPO Reno16 (8/256GB)",
+    "title": "OPPO Reno16 (8/256GB)",
+    "price": 18490,
+    "msrp": 24990,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "OPPO Reno16 (12/256GB)",
+    "title": "OPPO Reno16 (12/256GB)",
+    "price": 19990,
+    "msrp": 26990,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
     "id": "SAMSUNG 三星 Galaxy A27 5G (128GB)",
     "title": "SAMSUNG 三星 Galaxy A27 5G (128GB)",
     "price": 8990,
@@ -1092,14 +1108,6 @@
     "title": "SAMSUNG 三星 Galaxy A26 5G (度假綠)",
     "price": 7490,
     "msrp": 11990,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
-    "id": "SAMSUNG 三星 Galaxy A56 5G (8G/256G)",
-    "title": "SAMSUNG 三星 Galaxy A56 5G (8G/256G)",
-    "price": 10290,
-    "msrp": 16990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
