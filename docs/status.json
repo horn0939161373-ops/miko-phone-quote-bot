@@ -1,12 +1,5 @@
 [
   {
-    "at": "2026-08-10T19:00:29.561Z",
-    "ok": false,
-    "error": "page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://www.miko3c.com/price/phone/\", waiting until \"domcontentloaded\"\n",
-    "phoneCount": 0,
-    "pushCount": 0
-  },
-  {
     "at": "2026-08-10T20:44:49.872Z",
     "ok": true,
     "error": null,
@@ -344,6 +337,13 @@
   },
   {
     "at": "2026-08-13T22:44:51.030Z",
+    "ok": true,
+    "error": null,
+    "phoneCount": 154,
+    "pushCount": 0
+  },
+  {
+    "at": "2026-08-13T23:43:31.354Z",
     "ok": true,
     "error": null,
     "phoneCount": 154,
