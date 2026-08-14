@@ -20,6 +20,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -55,12 +57,13 @@ jobs:
           git diff --cached --quiet && exit 0
 
           git commit -m "chore: 更新米可手機報價資料 [skip ci]"
-          # 手動觸發跟排程觸發偶爾會重疊，push 前先 rebase 到最新 main 再重試，
-          # 避免單純的 race condition 讓整次執行判定失敗。
+          # 手動觸發/排程或人在 GitHub 同時改檔時，push 可能遇到遠端新 commit。
+          # rebase 的 -X theirs 在 rebase 語意下保留「本輪正在重放的資料檔」，
+          # 避免 status/state JSON 衝突把整個 job 卡死。
           for i in 1 2 3 4 5; do
             git push && exit 0
             echo "push 被拒絕（第 $i 次），rebase 到最新 main 後重試..."
-            git pull --rebase origin main
+            git pull --rebase -X theirs origin main
           done
           echo "重試 5 次後仍 push 失敗" >&2
           exit 1
