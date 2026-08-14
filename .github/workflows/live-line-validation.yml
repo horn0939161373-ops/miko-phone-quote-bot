@@ -1,0 +1,47 @@
+name: Live LINE validation
+
+on:
+  push:
+    paths:
+      - '.github/live-validation/request.json'
+
+permissions:
+  contents: read
+
+jobs:
+  validate-line:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Send validation message to configured subscriber
+        env:
+          LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
+        run: |
+          node - <<'NODE'
+          (async () => {
+            const fs = require('fs');
+            if (!process.env.LINE_CHANNEL_ACCESS_TOKEN) throw new Error('missing LINE token');
+            const rows = JSON.parse(fs.readFileSync('watchlist.json', 'utf8'));
+            const sub = Array.isArray(rows) ? rows.find(x => x && x.lineTargetId) : null;
+            if (!sub) throw new Error('no subscriber in watchlist.json');
+            const now = new Intl.DateTimeFormat('zh-TW', {
+              timeZone: 'Asia/Taipei', year: 'numeric', month: '2-digit', day: '2-digit',
+              hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false
+            }).format(new Date());
+            const text = `✅ 米可手機報價：LINE 推播通道驗證成功\n台北時間 ${now}\n（這是系統測試訊息，不代表價格有異動）`;
+            const res = await fetch('https://api.line.me/v2/bot/message/push', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${process.env.LINE_CHANNEL_ACCESS_TOKEN}`
+              },
+              body: JSON.stringify({ to: sub.lineTargetId, messages: [{ type: 'text', text }] })
+            });
+            if (!res.ok) throw new Error(`LINE push failed: ${res.status} ${(await res.text()).slice(0, 200)}`);
+            console.log('LINE validation push succeeded');
+          })().catch(err => { console.error(err); process.exit(1); });
+          NODE
