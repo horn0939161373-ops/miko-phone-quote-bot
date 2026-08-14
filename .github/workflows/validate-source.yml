@@ -1,0 +1,44 @@
+name: Validate source
+
+on:
+  push:
+    paths:
+      - 'src/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/validate-source.yml'
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install dependencies
+        run: npm ci
+      - name: Syntax check
+        run: |
+          for f in src/*.js; do
+            node --check "$f"
+          done
+      - name: Parser and date smoke tests
+        run: |
+          node - <<'NODE'
+          const { parsePhonesFromText } = require('./src/scrape');
+          const { todayStr } = require('./src/history');
+          const sample = `型號\n原廠建議售價\n米可破盤價\n優惠活動\n測試手機 (256GB)\n39,900\n36,990`;
+          const rows = parsePhonesFromText(sample);
+          if (rows.length !== 1 || rows[0].price !== 36990 || rows[0].msrp !== 39900) {
+            throw new Error('phone parser smoke test failed');
+          }
+          if (!/^\d{4}-\d{2}-\d{2}$/.test(todayStr())) {
+            throw new Error('Taipei history date format failed');
+          }
+          console.log('smoke tests passed');
+          NODE
