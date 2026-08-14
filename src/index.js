@@ -3,7 +3,6 @@
 //            比對每位訂閱者的關注清單、各自推播 LINE
 // ============================================================
 
-const fs = require('fs');
 const path = require('path');
 const { scrapePhones } = require('./scrape');
 const { pushPriceUpdates } = require('./line');
@@ -11,6 +10,7 @@ const { loadStateBySubscriber, saveStateBySubscriber } = require('./state');
 const { loadSubscribers, matchWatchlist } = require('./watchlist');
 const { loadHistory, updateHistory, saveHistory } = require('./history');
 const { appendStatus } = require('./status');
+const { writeJsonAtomic } = require('./json-file');
 
 const WATCHLIST_PATH = path.join(__dirname, '..', 'watchlist.json');
 const STATE_PATH = path.join(__dirname, '..', 'state', 'last-prices.json');
@@ -33,7 +33,7 @@ async function main() {
   }
 
   console.log(`抓到 ${phones.length} 支手機報價`);
-  fs.writeFileSync(DATA_PATH, JSON.stringify(phones, null, 2) + '\n');
+  writeJsonAtomic(DATA_PATH, phones);
   console.log(`已更新選手機網頁用的資料：${DATA_PATH}`);
 
   const history = loadHistory(HISTORY_PATH);
