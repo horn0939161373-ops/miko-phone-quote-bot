@@ -3,6 +3,7 @@
 // ============================================================
 
 const fs = require('fs');
+const { writeJsonAtomic } = require('./json-file');
 
 const MAX_RUNS = 50;
 
@@ -21,7 +22,7 @@ function appendStatus(path, entry) {
   const log = loadStatusLog(path);
   log.push(entry);
   const trimmed = log.slice(-MAX_RUNS);
-  fs.writeFileSync(path, JSON.stringify(trimmed, null, 2) + '\n');
+  writeJsonAtomic(path, trimmed);
   return trimmed;
 }
 
