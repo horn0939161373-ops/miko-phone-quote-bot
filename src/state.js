@@ -8,6 +8,7 @@
 // 判斷基準要各自獨立。
 
 const fs = require('fs');
+const { writeJsonAtomic } = require('./json-file');
 
 function loadStateBySubscriber(path) {
   try {
@@ -20,7 +21,7 @@ function loadStateBySubscriber(path) {
 }
 
 function saveStateBySubscriber(path, stateBySubscriber) {
-  fs.writeFileSync(path, JSON.stringify(stateBySubscriber, null, 2) + '\n');
+  writeJsonAtomic(path, stateBySubscriber);
 }
 
 module.exports = { loadStateBySubscriber, saveStateBySubscriber };
