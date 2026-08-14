@@ -7,8 +7,10 @@
 // MAX_DAYS 天，超過的自動剪掉。
 
 const fs = require('fs');
+const { writeJsonAtomic } = require('./json-file');
 
 const MAX_DAYS = 90;
+const HISTORY_TIME_ZONE = 'Asia/Taipei';
 
 function loadHistory(path) {
   try {
@@ -20,14 +22,23 @@ function loadHistory(path) {
   }
 }
 
+function dateStrInTaipei(date = new Date()) {
+  const parts = new Intl.DateTimeFormat('en-US', {
+    timeZone: HISTORY_TIME_ZONE,
+    year: 'numeric', month: '2-digit', day: '2-digit'
+  }).formatToParts(date);
+  const values = Object.fromEntries(parts.map(p => [p.type, p.value]));
+  return `${values.year}-${values.month}-${values.day}`;
+}
+
 function todayStr() {
-  return new Date().toISOString().slice(0, 10); // YYYY-MM-DD（UTC，跟 GitHub Actions runner 時區一致）
+  return dateStrInTaipei();
 }
 
 /** 直接修改並回傳傳入的 history 物件（key 是手機標題）。 */
 function updateHistory(history, phones) {
   const today = todayStr();
-  const cutoff = new Date(Date.now() - MAX_DAYS * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
+  const cutoff = dateStrInTaipei(new Date(Date.now() - MAX_DAYS * 24 * 60 * 60 * 1000));
 
   for (const p of phones) {
     if (!p.title || !p.price) continue;
@@ -48,7 +59,7 @@ function updateHistory(history, phones) {
 
 function saveHistory(path, history) {
   // 資料量隨天數 × 手機數成長，不用 pretty-print 縮排省空間
-  fs.writeFileSync(path, JSON.stringify(history) + '\n');
+  writeJsonAtomic(path, history, { pretty: false });
 }
 
 module.exports = { loadHistory, updateHistory, saveHistory, todayStr };
