@@ -2,11 +2,8 @@ name: 米可手機報價通知
 
 on:
   schedule:
-    # 已確認過：這個帳號的 schedule 觸發器目前不會自動動作（手動
-    # workflow_dispatch 一律正常，但 cron 排程從沒被 GitHub 排進去執行
-    # 過，橫跨 4 小時、每 5 分鐘的測試window 完全沒有任何一次自動觸發）。
-    # cron 設定先照正式間隔（每小時）放著，等這個帳號的排程功能恢復
-    # 正常就會照這個頻率跑；目前實務上要靠手動 workflow_dispatch。
+    # 每小時自動執行一次。2026-08-15 已重新核對 GitHub Actions：
+    # schedule 觸發正常，近期自動排程持續成功執行。
     - cron: '0 * * * *'
   workflow_dispatch: {}
 
