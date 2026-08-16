@@ -1,12 +1,5 @@
 [
   {
-    "at": "2026-08-13T23:43:31.354Z",
-    "ok": true,
-    "error": null,
-    "phoneCount": 154,
-    "pushCount": 0
-  },
-  {
     "at": "2026-08-14T02:07:17.539Z",
     "ok": true,
     "error": null,
@@ -344,6 +337,13 @@
   },
   {
     "at": "2026-08-16T10:25:31.312Z",
+    "ok": true,
+    "error": null,
+    "phoneCount": 150,
+    "pushCount": 0
+  },
+  {
+    "at": "2026-08-16T11:22:32.305Z",
     "ok": true,
     "error": null,
     "phoneCount": 150,
