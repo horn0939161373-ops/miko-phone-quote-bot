@@ -194,7 +194,7 @@
   {
     "id": "OPPO Find N6 (旭日暖橘)",
     "title": "OPPO Find N6 (旭日暖橘)",
-    "price": 58990,
+    "price": 58490,
     "msrp": 68990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -578,7 +578,7 @@
   {
     "id": "vivo V70 (256GB)",
     "title": "vivo V70 (256GB)",
-    "price": 15990,
+    "price": 15690,
     "msrp": 21990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -836,6 +836,14 @@
     "title": "Redmi 紅米 15 5G (8GB+256GB)",
     "price": 5590,
     "msrp": 7999,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "Redmi 紅米 15C (4GB+128GB)",
+    "title": "Redmi 紅米 15C (4GB+128GB)",
+    "price": 3390,
+    "msrp": 4499,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
