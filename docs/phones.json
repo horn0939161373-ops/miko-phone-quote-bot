@@ -82,7 +82,7 @@
   {
     "id": "Apple 蘋果 iPhone 17 (256GB)",
     "title": "Apple 蘋果 iPhone 17 (256GB)",
-    "price": 28290,
+    "price": 28390,
     "msrp": 29900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -90,7 +90,7 @@
   {
     "id": "Apple 蘋果 iPhone 17 (512GB)",
     "title": "Apple 蘋果 iPhone 17 (512GB)",
-    "price": 34390,
+    "price": 34490,
     "msrp": 36900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -204,6 +204,70 @@
     "title": "OPPO Find N6 (無界鈦)",
     "price": 58990,
     "msrp": 68990,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "Google Pixel 11 Pro Fold (256GB)",
+    "title": "Google Pixel 11 Pro Fold (256GB)",
+    "price": 56990,
+    "msrp": 60990,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "Google Pixel 11 Pro Fold (512GB)",
+    "title": "Google Pixel 11 Pro Fold (512GB)",
+    "price": 60990,
+    "msrp": 64990,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "Google Pixel 11 Pro XL (12/256GB)",
+    "title": "Google Pixel 11 Pro XL (12/256GB)",
+    "price": 38990,
+    "msrp": 42990,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "Google Pixel 11 Pro XL (16/512GB)",
+    "title": "Google Pixel 11 Pro XL (16/512GB)",
+    "price": 42990,
+    "msrp": 46990,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "Google Pixel 11 Pro (12/256GB)",
+    "title": "Google Pixel 11 Pro (12/256GB)",
+    "price": 32990,
+    "msrp": 36990,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "Google Pixel 11 Pro (16/512GB)",
+    "title": "Google Pixel 11 Pro (16/512GB)",
+    "price": 36990,
+    "msrp": 40990,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "Google Pixel 11 (12G/256G)",
+    "title": "Google Pixel 11 (12G/256G)",
+    "price": 25990,
+    "msrp": 29990,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "Google Pixel 11 (12G/512G)",
+    "title": "Google Pixel 11 (12G/512G)",
+    "price": 29990,
+    "msrp": 33990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
@@ -674,7 +738,7 @@
   {
     "id": "Google Pixel 10a (256GB)",
     "title": "Google Pixel 10a (256GB)",
-    "price": 14390,
+    "price": 14290,
     "msrp": 19990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -994,7 +1058,7 @@
   {
     "id": "SAMSUNG 三星 Galaxy S25 Edge (256GB)",
     "title": "SAMSUNG 三星 Galaxy S25 Edge (256GB)",
-    "price": 22290,
+    "price": 22490,
     "msrp": 37900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -1026,7 +1090,7 @@
   {
     "id": "SAMSUNG 三星 Galaxy S25 Ultra (256GB)",
     "title": "SAMSUNG 三星 Galaxy S25 Ultra (256GB)",
-    "price": 27990,
+    "price": 28290,
     "msrp": 43900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
