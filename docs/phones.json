@@ -480,14 +480,6 @@
     "url": "https://www.miko3c.com/price/phone/"
   },
   {
-    "id": "POCO M8 (512GB)",
-    "title": "POCO M8 (512GB)",
-    "price": 6290,
-    "msrp": 8499,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
     "id": "POCO X8 Pro Max (12+256GB)",
     "title": "POCO X8 Pro Max (12+256GB)",
     "price": 12890,
@@ -908,6 +900,14 @@
     "title": "POCO F8 Ultra (12+256GB)",
     "price": 19490,
     "msrp": 21999,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "POCO F8 Ultra (16+512GB)",
+    "title": "POCO F8 Ultra (16+512GB)",
+    "price": 20490,
+    "msrp": 23999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
