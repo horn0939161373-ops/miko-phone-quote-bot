@@ -42,7 +42,7 @@
   {
     "id": "Apple 蘋果 iPhone 17 Pro (256GB)",
     "title": "Apple 蘋果 iPhone 17 Pro (256GB)",
-    "price": 36690,
+    "price": 36890,
     "msrp": 39900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -58,7 +58,7 @@
   {
     "id": "Apple 蘋果 iPhone 17 Pro (1TB)",
     "title": "Apple 蘋果 iPhone 17 Pro (1TB)",
-    "price": 50590,
+    "price": 50490,
     "msrp": 53900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -90,7 +90,7 @@
   {
     "id": "HONOR 600 Pro (12G/512G)",
     "title": "HONOR 600 Pro (12G/512G)",
-    "price": 25990,
+    "price": 24990,
     "msrp": 29990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -106,7 +106,7 @@
   {
     "id": "HONOR 600 (12G/512G)",
     "title": "HONOR 600 (12G/512G)",
-    "price": 18490,
+    "price": 17990,
     "msrp": 23990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -480,6 +480,14 @@
     "url": "https://www.miko3c.com/price/phone/"
   },
   {
+    "id": "POCO M8 (512GB)",
+    "title": "POCO M8 (512GB)",
+    "price": 6290,
+    "msrp": 8499,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
     "id": "POCO X8 Pro Max (12+256GB)",
     "title": "POCO X8 Pro Max (12+256GB)",
     "price": 12890,
@@ -506,7 +514,7 @@
   {
     "id": "POCO X8 Pro (8+512GB)",
     "title": "POCO X8 Pro (8+512GB)",
-    "price": 10690,
+    "price": 10490,
     "msrp": 10999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -514,7 +522,7 @@
   {
     "id": "POCO X8 Pro (12+512GB)",
     "title": "POCO X8 Pro (12+512GB)",
-    "price": 11690,
+    "price": 11590,
     "msrp": 11999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -594,7 +602,7 @@
   {
     "id": "Nothing Phone (4a Pro) (256GB)",
     "title": "Nothing Phone (4a Pro) (256GB)",
-    "price": 16990,
+    "price": 16690,
     "msrp": 17990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
