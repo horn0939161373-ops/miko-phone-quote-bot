@@ -480,50 +480,42 @@
     "url": "https://www.miko3c.com/price/phone/"
   },
   {
-    "id": "POCO M8 (512GB)",
-    "title": "POCO M8 (512GB)",
-    "price": 6290,
-    "msrp": 8499,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
     "id": "POCO X8 Pro Max (12+256GB)",
     "title": "POCO X8 Pro Max (12+256GB)",
-    "price": 12890,
-    "msrp": 14999,
+    "price": 14890,
+    "msrp": 16999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
   {
     "id": "POCO X8 Pro Max (12+512GB)",
     "title": "POCO X8 Pro Max (12+512GB)",
-    "price": 13790,
-    "msrp": 15999,
+    "price": 15790,
+    "msrp": 17999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
   {
     "id": "POCO X8 Pro (8+256GB)",
     "title": "POCO X8 Pro (8+256GB)",
-    "price": 9790,
-    "msrp": 9999,
+    "price": 11390,
+    "msrp": 12999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
   {
     "id": "POCO X8 Pro (8+512GB)",
     "title": "POCO X8 Pro (8+512GB)",
-    "price": 10490,
-    "msrp": 10999,
+    "price": 12790,
+    "msrp": 13999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
   {
     "id": "POCO X8 Pro (12+512GB)",
     "title": "POCO X8 Pro (12+512GB)",
-    "price": 11590,
-    "msrp": 11999,
+    "price": 13690,
+    "msrp": 14999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
@@ -538,7 +530,7 @@
   {
     "id": "SAMSUNG 三星 Galaxy A37 5G (256GB)",
     "title": "SAMSUNG 三星 Galaxy A37 5G (256GB)",
-    "price": 11690,
+    "price": 11590,
     "msrp": 15990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -562,7 +554,7 @@
   {
     "id": "SAMSUNG 三星 Galaxy A57 5G (12G/512G)",
     "title": "SAMSUNG 三星 Galaxy A57 5G (12G/512G)",
-    "price": 18490,
+    "price": 18990,
     "msrp": 22490,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -906,7 +898,7 @@
   {
     "id": "POCO F8 Ultra (12+256GB)",
     "title": "POCO F8 Ultra (12+256GB)",
-    "price": 19490,
+    "price": 20490,
     "msrp": 21999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -914,7 +906,7 @@
   {
     "id": "POCO F8 Ultra (16+512GB)",
     "title": "POCO F8 Ultra (16+512GB)",
-    "price": 20490,
+    "price": 21990,
     "msrp": 23999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -992,9 +984,9 @@
     "url": "https://www.miko3c.com/price/phone/"
   },
   {
-    "id": "SAMSUNG 三星 Galaxy A17 5G (6G/128G&追浪藍)",
-    "title": "SAMSUNG 三星 Galaxy A17 5G (6G/128G&追浪藍)",
-    "price": 5790,
+    "id": "SAMSUNG 三星 Galaxy A17 5G",
+    "title": "SAMSUNG 三星 Galaxy A17 5G",
+    "price": 6290,
     "msrp": 7490,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -1068,14 +1060,6 @@
     "title": "Google Pixel 9a (256GB)",
     "price": 12890,
     "msrp": 19990,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
-    "id": "Apple 蘋果 iPhone 16e (512GB)",
-    "title": "Apple 蘋果 iPhone 16e (512GB)",
-    "price": 20990,
-    "msrp": 32400,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
