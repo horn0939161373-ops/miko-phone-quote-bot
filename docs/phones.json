@@ -200,6 +200,22 @@
     "url": "https://www.miko3c.com/price/phone/"
   },
   {
+    "id": "Redmi 紅米 17 5G (4G/128G)",
+    "title": "Redmi 紅米 17 5G (4G/128G)",
+    "price": 6990,
+    "msrp": 8999,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "Redmi 紅米 17 5G (6G/256G)",
+    "title": "Redmi 紅米 17 5G (6G/256G)",
+    "price": 7990,
+    "msrp": 9999,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
     "id": "Google Pixel 11 Pro Fold (256GB)",
     "title": "Google Pixel 11 Pro Fold (256GB)",
     "price": 56990,
@@ -290,7 +306,7 @@
   {
     "id": "OPPO Reno16 F (8/128GB)",
     "title": "OPPO Reno16 F (8/128GB)",
-    "price": 10790,
+    "price": 10590,
     "msrp": 18990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
