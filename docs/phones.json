@@ -74,7 +74,7 @@
   {
     "id": "Apple 蘋果 iPhone 17 (256GB)",
     "title": "Apple 蘋果 iPhone 17 (256GB)",
-    "price": 28390,
+    "price": 28590,
     "msrp": 29900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -82,7 +82,7 @@
   {
     "id": "Apple 蘋果 iPhone 17 (512GB)",
     "title": "Apple 蘋果 iPhone 17 (512GB)",
-    "price": 34490,
+    "price": 34690,
     "msrp": 36900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -218,7 +218,7 @@
   {
     "id": "Google Pixel 11 Pro Fold (256GB)",
     "title": "Google Pixel 11 Pro Fold (256GB)",
-    "price": 56990,
+    "price": 54390,
     "msrp": 60990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -234,7 +234,7 @@
   {
     "id": "Google Pixel 11 Pro XL (12/256GB)",
     "title": "Google Pixel 11 Pro XL (12/256GB)",
-    "price": 38990,
+    "price": 37990,
     "msrp": 42990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -250,7 +250,7 @@
   {
     "id": "Google Pixel 11 Pro (12/256GB)",
     "title": "Google Pixel 11 Pro (12/256GB)",
-    "price": 32990,
+    "price": 31990,
     "msrp": 36990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -322,7 +322,7 @@
   {
     "id": "OPPO Reno16 (8/256GB)",
     "title": "OPPO Reno16 (8/256GB)",
-    "price": 17990,
+    "price": 17890,
     "msrp": 24990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -330,7 +330,7 @@
   {
     "id": "OPPO Reno16 (12/256GB)",
     "title": "OPPO Reno16 (12/256GB)",
-    "price": 19490,
+    "price": 19390,
     "msrp": 26990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -496,6 +496,14 @@
     "url": "https://www.miko3c.com/price/phone/"
   },
   {
+    "id": "vivo X300 Ultra (16G/1TB)",
+    "title": "vivo X300 Ultra (16G/1TB)",
+    "price": 55490,
+    "msrp": 58990,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
     "id": "POCO X8 Pro Max (12+256GB)",
     "title": "POCO X8 Pro Max (12+256GB)",
     "price": 14890,
@@ -626,7 +634,7 @@
   {
     "id": "vivo V70 FE (8G/256G)",
     "title": "vivo V70 FE (8G/256G)",
-    "price": 12490,
+    "price": 12390,
     "msrp": 17990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -634,7 +642,7 @@
   {
     "id": "vivo V70 FE (12G/256G)",
     "title": "vivo V70 FE (12G/256G)",
-    "price": 13690,
+    "price": 13490,
     "msrp": 19990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -690,7 +698,7 @@
   {
     "id": "SAMSUNG 三星 Galaxy S26 (512GB)",
     "title": "SAMSUNG 三星 Galaxy S26 (512GB)",
-    "price": 28390,
+    "price": 27990,
     "msrp": 36900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -964,22 +972,6 @@
     "title": "Google Pixel 10 Pro XL",
     "price": 29890,
     "msrp": 39990,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
-    "id": "Google Pixel 10 Pro (128GB)",
-    "title": "Google Pixel 10 Pro (128GB)",
-    "price": 23990,
-    "msrp": 33490,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
-    "id": "Google Pixel 10 (128GB)",
-    "title": "Google Pixel 10 (128GB)",
-    "price": 16690,
-    "msrp": 26490,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
