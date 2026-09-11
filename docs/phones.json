@@ -2,7 +2,7 @@
   {
     "id": "Apple 蘋果 iPhone 17e (256GB)",
     "title": "Apple 蘋果 iPhone 17e (256GB)",
-    "price": 22690,
+    "price": 23790,
     "msrp": 25900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -10,7 +10,7 @@
   {
     "id": "Apple 蘋果 iPhone 17e (512GB)",
     "title": "Apple 蘋果 iPhone 17e (512GB)",
-    "price": 29290,
+    "price": 30390,
     "msrp": 32900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -18,7 +18,7 @@
   {
     "id": "Apple 蘋果 iPhone 17 Pro Max (256GB)",
     "title": "Apple 蘋果 iPhone 17 Pro Max (256GB)",
-    "price": 40990,
+    "price": 41390,
     "msrp": 44900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -42,16 +42,8 @@
   {
     "id": "Apple 蘋果 iPhone 17 Pro (256GB)",
     "title": "Apple 蘋果 iPhone 17 Pro (256GB)",
-    "price": 37290,
+    "price": 37490,
     "msrp": 39900,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
-    "id": "Apple 蘋果 iPhone 17 Pro (512GB)",
-    "title": "Apple 蘋果 iPhone 17 Pro (512GB)",
-    "price": 45990,
-    "msrp": 46900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
@@ -212,6 +204,30 @@
     "title": "Redmi 紅米 17 5G (6G/256G)",
     "price": 7990,
     "msrp": 9999,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "SAMSUNG 三星 Galaxy S26 FE (開心果綠)",
+    "title": "SAMSUNG 三星 Galaxy S26 FE (開心果綠)",
+    "price": 20990,
+    "msrp": 25900,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "SAMSUNG 三星 Galaxy S26 FE (藍莓紫)",
+    "title": "SAMSUNG 三星 Galaxy S26 FE (藍莓紫)",
+    "price": 20990,
+    "msrp": 25900,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "SAMSUNG 三星 Galaxy S26 FE (巧酥黑)",
+    "title": "SAMSUNG 三星 Galaxy S26 FE (巧酥黑)",
+    "price": 20990,
+    "msrp": 25900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
