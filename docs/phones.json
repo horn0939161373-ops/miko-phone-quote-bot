@@ -192,6 +192,38 @@
     "url": "https://www.miko3c.com/price/phone/"
   },
   {
+    "id": "POCO F9 Pro (12+256GB)",
+    "title": "POCO F9 Pro (12+256GB)",
+    "price": 19890,
+    "msrp": 22999,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "POCO F9 Pro (12+512GB)",
+    "title": "POCO F9 Pro (12+512GB)",
+    "price": 21690,
+    "msrp": 24999,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "POCO F9 Ultra (12+256GB)",
+    "title": "POCO F9 Ultra (12+256GB)",
+    "price": 22790,
+    "msrp": 26999,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "POCO F9 Ultra (16+512GB)",
+    "title": "POCO F9 Ultra (16+512GB)",
+    "price": 25690,
+    "msrp": 29999,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
     "id": "Redmi 紅米 17 5G (4G/128G)",
     "title": "Redmi 紅米 17 5G (4G/128G)",
     "price": 6990,
@@ -354,7 +386,7 @@
   {
     "id": "SAMSUNG 三星 Galaxy A27 5G (128GB)",
     "title": "SAMSUNG 三星 Galaxy A27 5G (128GB)",
-    "price": 9290,
+    "price": 9390,
     "msrp": 11990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -922,16 +954,8 @@
   {
     "id": "POCO F8 Ultra (12+256GB)",
     "title": "POCO F8 Ultra (12+256GB)",
-    "price": 20490,
+    "price": 19990,
     "msrp": 21999,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
-    "id": "POCO F8 Ultra (16+512GB)",
-    "title": "POCO F8 Ultra (16+512GB)",
-    "price": 21990,
-    "msrp": 23999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
@@ -1058,7 +1082,7 @@
   {
     "id": "SAMSUNG 三星 Galaxy S25 Edge (256GB)",
     "title": "SAMSUNG 三星 Galaxy S25 Edge (256GB)",
-    "price": 22490,
+    "price": 21990,
     "msrp": 37900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -1090,7 +1114,7 @@
   {
     "id": "SAMSUNG 三星 Galaxy S25 Ultra (256GB)",
     "title": "SAMSUNG 三星 Galaxy S25 Ultra (256GB)",
-    "price": 28490,
+    "price": 28690,
     "msrp": 43900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
