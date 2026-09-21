@@ -1,17 +1,17 @@
 [
   {
-    "id": "Apple 蘋果 iPhone 17e (256GB)",
-    "title": "Apple 蘋果 iPhone 17e (256GB)",
-    "price": 23790,
-    "msrp": 25900,
+    "id": "Apple 蘋果 iPhone 18 Pro (2TB)",
+    "title": "Apple 蘋果 iPhone 18 Pro (2TB)",
+    "price": 87490,
+    "msrp": 88900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
   {
-    "id": "Apple 蘋果 iPhone 17e (512GB)",
-    "title": "Apple 蘋果 iPhone 17e (512GB)",
-    "price": 30390,
-    "msrp": 32900,
+    "id": "Apple 蘋果 iPhone 17e (256GB)",
+    "title": "Apple 蘋果 iPhone 17e (256GB)",
+    "price": 23790,
+    "msrp": 25900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
@@ -42,23 +42,7 @@
   {
     "id": "Apple 蘋果 iPhone 17 Pro (256GB)",
     "title": "Apple 蘋果 iPhone 17 Pro (256GB)",
-    "price": 37490,
-    "msrp": 39900,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
-    "id": "Apple 蘋果 iPhone 17 Pro (1TB)",
-    "title": "Apple 蘋果 iPhone 17 Pro (1TB)",
-    "price": 52490,
-    "msrp": 53900,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
-    "id": "Apple 蘋果 iPhone Air (256GB)",
-    "title": "Apple 蘋果 iPhone Air (256GB)",
-    "price": 33490,
+    "price": 37390,
     "msrp": 39900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -74,7 +58,7 @@
   {
     "id": "Apple 蘋果 iPhone 17 (512GB)",
     "title": "Apple 蘋果 iPhone 17 (512GB)",
-    "price": 36790,
+    "price": 36990,
     "msrp": 39900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -346,7 +330,7 @@
   {
     "id": "Motorola edge 70 Fusion",
     "title": "Motorola edge 70 Fusion",
-    "price": 9490,
+    "price": 9190,
     "msrp": 14990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
