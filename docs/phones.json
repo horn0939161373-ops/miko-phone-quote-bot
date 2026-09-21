@@ -1,5 +1,29 @@
 [
   {
+    "id": "Apple 蘋果 iPhone 18 Pro (256GB)",
+    "title": "Apple 蘋果 iPhone 18 Pro (256GB)",
+    "price": 44490,
+    "msrp": 44900,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "Apple 蘋果 iPhone 18 Pro (512GB)",
+    "title": "Apple 蘋果 iPhone 18 Pro (512GB)",
+    "price": 51490,
+    "msrp": 51900,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "Apple 蘋果 iPhone 18 Pro (1TB)",
+    "title": "Apple 蘋果 iPhone 18 Pro (1TB)",
+    "price": 66900,
+    "msrp": 66900,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
     "id": "Apple 蘋果 iPhone 18 Pro (2TB)",
     "title": "Apple 蘋果 iPhone 18 Pro (2TB)",
     "price": 87490,
@@ -298,7 +322,7 @@
   {
     "id": "Google Pixel 11 (12G/256G)",
     "title": "Google Pixel 11 (12G/256G)",
-    "price": 25990,
+    "price": 24990,
     "msrp": 29990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -306,7 +330,7 @@
   {
     "id": "Google Pixel 11 (12G/512G)",
     "title": "Google Pixel 11 (12G/512G)",
-    "price": 28490,
+    "price": 27890,
     "msrp": 33990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -618,7 +642,7 @@
   {
     "id": "vivo Y05 4G (曜石黑)",
     "title": "vivo Y05 4G (曜石黑)",
-    "price": 4690,
+    "price": 4390,
     "msrp": 4990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -626,7 +650,7 @@
   {
     "id": "vivo Y05 4G (香檳金)",
     "title": "vivo Y05 4G (香檳金)",
-    "price": 4690,
+    "price": 4390,
     "msrp": 4990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -650,7 +674,7 @@
   {
     "id": "Nothing Phone (4a Pro) (256GB)",
     "title": "Nothing Phone (4a Pro) (256GB)",
-    "price": 16690,
+    "price": 16490,
     "msrp": 17990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -658,7 +682,7 @@
   {
     "id": "Nothing Phone (4a) (256GB)",
     "title": "Nothing Phone (4a) (256GB)",
-    "price": 13390,
+    "price": 12990,
     "msrp": 14990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
