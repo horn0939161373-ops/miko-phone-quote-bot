@@ -904,22 +904,6 @@
     "url": "https://www.miko3c.com/price/phone/"
   },
   {
-    "id": "OPPO Reno15 Pro 5G (夜漠棕)",
-    "title": "OPPO Reno15 Pro 5G (夜漠棕)",
-    "price": 16490,
-    "msrp": 22990,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
-    "id": "OPPO Reno15 Pro 5G (極光藍)",
-    "title": "OPPO Reno15 Pro 5G (極光藍)",
-    "price": 16690,
-    "msrp": 22990,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
     "id": "Redmi 紅米 15 5G (4GB+128GB)",
     "title": "Redmi 紅米 15 5G (4GB+128GB)",
     "price": 4790,
@@ -964,14 +948,6 @@
     "title": "vivo X300 (16G/512G)",
     "price": 24490,
     "msrp": 33490,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
-    "id": "OPPO Find X9 (12G/256G)",
-    "title": "OPPO Find X9 (12G/256G)",
-    "price": 18990,
-    "msrp": 28990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
