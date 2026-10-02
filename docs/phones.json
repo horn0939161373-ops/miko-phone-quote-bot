@@ -208,6 +208,22 @@
     "url": "https://www.miko3c.com/price/phone/"
   },
   {
+    "id": "POCO X8 (8+256GB)",
+    "title": "POCO X8 (8+256GB)",
+    "price": 9790,
+    "msrp": 10999,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "POCO X8 (12+256GB)",
+    "title": "POCO X8 (12+256GB)",
+    "price": 10790,
+    "msrp": 11999,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
     "id": "POCO F9 Pro (12+256GB)",
     "title": "POCO F9 Pro (12+256GB)",
     "price": 19890,
@@ -458,8 +474,8 @@
   {
     "id": "SAMSUNG 三星 Galaxy A27 5G (128GB)",
     "title": "SAMSUNG 三星 Galaxy A27 5G (128GB)",
-    "price": 9390,
-    "msrp": 11990,
+    "price": 9990,
+    "msrp": 13490,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
@@ -467,7 +483,7 @@
     "id": "SAMSUNG 三星 Galaxy A27 5G (256GB)",
     "title": "SAMSUNG 三星 Galaxy A27 5G (256GB)",
     "price": 10390,
-    "msrp": 13490,
+    "msrp": 14990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
@@ -618,16 +634,16 @@
   {
     "id": "POCO X8 Pro Max (12+256GB)",
     "title": "POCO X8 Pro Max (12+256GB)",
-    "price": 14790,
-    "msrp": 16999,
+    "price": 16690,
+    "msrp": 18999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
   {
     "id": "POCO X8 Pro Max (12+512GB)",
     "title": "POCO X8 Pro Max (12+512GB)",
-    "price": 15590,
-    "msrp": 17999,
+    "price": 17590,
+    "msrp": 19999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
@@ -659,31 +675,31 @@
     "id": "SAMSUNG 三星 Galaxy A37 5G (128GB)",
     "title": "SAMSUNG 三星 Galaxy A37 5G (128GB)",
     "price": 10290,
-    "msrp": 14490,
+    "msrp": 16990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
   {
     "id": "SAMSUNG 三星 Galaxy A37 5G (256GB)",
     "title": "SAMSUNG 三星 Galaxy A37 5G (256GB)",
-    "price": 11690,
-    "msrp": 15990,
+    "price": 12890,
+    "msrp": 18490,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
   {
     "id": "SAMSUNG 三星 Galaxy A57 5G (8G/256G)",
     "title": "SAMSUNG 三星 Galaxy A57 5G (8G/256G)",
-    "price": 13290,
-    "msrp": 17990,
+    "price": 13890,
+    "msrp": 19990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
   {
     "id": "SAMSUNG 三星 Galaxy A57 5G (12G/256G)",
     "title": "SAMSUNG 三星 Galaxy A57 5G (12G/256G)",
-    "price": 14390,
-    "msrp": 19490,
+    "price": 14990,
+    "msrp": 22490,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
@@ -691,7 +707,7 @@
     "id": "SAMSUNG 三星 Galaxy A57 5G (12G/512G)",
     "title": "SAMSUNG 三星 Galaxy A57 5G (12G/512G)",
     "price": 18990,
-    "msrp": 22490,
+    "msrp": 25990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
@@ -810,7 +826,7 @@
   {
     "id": "SAMSUNG 三星 Galaxy S26 (512GB)",
     "title": "SAMSUNG 三星 Galaxy S26 (512GB)",
-    "price": 27890,
+    "price": 28490,
     "msrp": 39900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -818,7 +834,7 @@
   {
     "id": "SAMSUNG 三星 Galaxy S26+ (256GB)",
     "title": "SAMSUNG 三星 Galaxy S26+ (256GB)",
-    "price": 29790,
+    "price": 31990,
     "msrp": 42900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -826,7 +842,7 @@
   {
     "id": "SAMSUNG 三星 Galaxy S26+ (512GB)",
     "title": "SAMSUNG 三星 Galaxy S26+ (512GB)",
-    "price": 33790,
+    "price": 34990,
     "msrp": 48900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -883,7 +899,7 @@
     "id": "SAMSUNG 三星 Galaxy A07",
     "title": "SAMSUNG 三星 Galaxy A07",
     "price": 4790,
-    "msrp": 5990,
+    "msrp": 7490,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
@@ -1043,7 +1059,7 @@
     "id": "SAMSUNG 三星 Galaxy A17 5G",
     "title": "SAMSUNG 三星 Galaxy A17 5G",
     "price": 6490,
-    "msrp": 7490,
+    "msrp": 10490,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
