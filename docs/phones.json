@@ -42,7 +42,7 @@
   {
     "id": "Apple 蘋果 iPhone 17 Pro Max (256GB)",
     "title": "Apple 蘋果 iPhone 17 Pro Max (256GB)",
-    "price": 41390,
+    "price": 41290,
     "msrp": 44900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -236,6 +236,30 @@
     "title": "POCO F9 Pro (12+512GB)",
     "price": 21690,
     "msrp": 24999,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "索尼 Sony Xperia 10 VIII (迷霧紫)",
+    "title": "索尼 Sony Xperia 10 VIII (迷霧紫)",
+    "price": 17990,
+    "msrp": 19990,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "索尼 Sony Xperia 10 VIII (沁雪白)",
+    "title": "索尼 Sony Xperia 10 VIII (沁雪白)",
+    "price": 17990,
+    "msrp": 19990,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "索尼 Sony Xperia 10 VIII (初霜灰)",
+    "title": "索尼 Sony Xperia 10 VIII (初霜灰)",
+    "price": 17990,
+    "msrp": 19990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
@@ -482,7 +506,7 @@
   {
     "id": "SAMSUNG 三星 Galaxy A27 5G (256GB)",
     "title": "SAMSUNG 三星 Galaxy A27 5G (256GB)",
-    "price": 10390,
+    "price": 10690,
     "msrp": 14990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -491,7 +515,7 @@
     "id": "iQOO Z11",
     "title": "iQOO Z11",
     "price": 15990,
-    "msrp": 16999,
+    "msrp": 17999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
@@ -562,7 +586,7 @@
   {
     "id": "索尼 SONY Xperia 1 VIII (12G/512G)",
     "title": "索尼 SONY Xperia 1 VIII (12G/512G)",
-    "price": 45790,
+    "price": 45490,
     "msrp": 50880,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -608,18 +632,10 @@
     "url": "https://www.miko3c.com/price/phone/"
   },
   {
-    "id": "iQOO 15R (12G/256G)",
-    "title": "iQOO 15R (12G/256G)",
-    "price": 16990,
-    "msrp": 19999,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
     "id": "vivo X300 Ultra (16G/512G)",
     "title": "vivo X300 Ultra (16G/512G)",
     "price": 42990,
-    "msrp": 49990,
+    "msrp": 52990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
@@ -650,31 +666,31 @@
   {
     "id": "POCO X8 Pro (8+256GB)",
     "title": "POCO X8 Pro (8+256GB)",
-    "price": 11390,
-    "msrp": 12999,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
-    "id": "POCO X8 Pro (8+512GB)",
-    "title": "POCO X8 Pro (8+512GB)",
-    "price": 12790,
-    "msrp": 13999,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
-    "id": "POCO X8 Pro (12+512GB)",
-    "title": "POCO X8 Pro (12+512GB)",
     "price": 13690,
     "msrp": 14999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
   {
+    "id": "POCO X8 Pro (8+512GB)",
+    "title": "POCO X8 Pro (8+512GB)",
+    "price": 14790,
+    "msrp": 15999,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "POCO X8 Pro (12+512GB)",
+    "title": "POCO X8 Pro (12+512GB)",
+    "price": 15690,
+    "msrp": 16999,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
     "id": "SAMSUNG 三星 Galaxy A37 5G (128GB)",
     "title": "SAMSUNG 三星 Galaxy A37 5G (128GB)",
-    "price": 10290,
+    "price": 11490,
     "msrp": 16990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -1008,14 +1024,6 @@
     "url": "https://www.miko3c.com/price/phone/"
   },
   {
-    "id": "iQOO 15 (16G/512G)",
-    "title": "iQOO 15 (16G/512G)",
-    "price": 26490,
-    "msrp": 29999,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
     "id": "vivo X300 (16G/512G)",
     "title": "vivo X300 (16G/512G)",
     "price": 24490,
@@ -1058,7 +1066,7 @@
   {
     "id": "SAMSUNG 三星 Galaxy A17 5G",
     "title": "SAMSUNG 三星 Galaxy A17 5G",
-    "price": 6490,
+    "price": 7290,
     "msrp": 10490,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
