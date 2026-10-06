@@ -1,9 +1,65 @@
 [
   {
+    "id": "Apple 蘋果 iPhone Duo (256GB)",
+    "title": "Apple 蘋果 iPhone Duo (256GB)",
+    "price": 74900,
+    "msrp": 74900,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "Apple 蘋果 iPhone Duo (512GB)",
+    "title": "Apple 蘋果 iPhone Duo (512GB)",
+    "price": 81900,
+    "msrp": 81900,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "Apple 蘋果 iPhone Duo (1TB)",
+    "title": "Apple 蘋果 iPhone Duo (1TB)",
+    "price": 96900,
+    "msrp": 96900,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "Apple 蘋果 iPhone Duo (2TB)",
+    "title": "Apple 蘋果 iPhone Duo (2TB)",
+    "price": 118900,
+    "msrp": 118900,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "Apple 蘋果 iPhone 18 Pro Max (256GB)",
+    "title": "Apple 蘋果 iPhone 18 Pro Max (256GB)",
+    "price": 49900,
+    "msrp": 49900,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "Apple 蘋果 iPhone 18 Pro Max (512GB)",
+    "title": "Apple 蘋果 iPhone 18 Pro Max (512GB)",
+    "price": 56900,
+    "msrp": 56900,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
     "id": "Apple 蘋果 iPhone 18 Pro Max (1TB)",
     "title": "Apple 蘋果 iPhone 18 Pro Max (1TB)",
     "price": 71290,
     "msrp": 71900,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "Apple 蘋果 iPhone 18 Pro Max (2TB)",
+    "title": "Apple 蘋果 iPhone 18 Pro Max (2TB)",
+    "price": 89990,
+    "msrp": 93900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
@@ -698,7 +754,7 @@
   {
     "id": "SAMSUNG 三星 Galaxy A37 5G (128GB)",
     "title": "SAMSUNG 三星 Galaxy A37 5G (128GB)",
-    "price": 11490,
+    "price": 11590,
     "msrp": 16990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
