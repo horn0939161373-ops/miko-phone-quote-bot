@@ -98,7 +98,7 @@
   {
     "id": "Apple 蘋果 iPhone 17e (256GB)",
     "title": "Apple 蘋果 iPhone 17e (256GB)",
-    "price": 23790,
+    "price": 24290,
     "msrp": 25900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -130,7 +130,7 @@
   {
     "id": "Apple 蘋果 iPhone 17 Pro (256GB)",
     "title": "Apple 蘋果 iPhone 17 Pro (256GB)",
-    "price": 36790,
+    "price": 36690,
     "msrp": 39900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -504,6 +504,14 @@
     "url": "https://www.miko3c.com/price/phone/"
   },
   {
+    "id": "SAMSUNG 三星 Galaxy Z Flip8 (256GB)",
+    "title": "SAMSUNG 三星 Galaxy Z Flip8 (256GB)",
+    "price": 29890,
+    "msrp": 38900,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
     "id": "SHARP AQUOS R11 (12G/256G)",
     "title": "SHARP AQUOS R11 (12G/256G)",
     "price": 22990,
@@ -786,7 +794,7 @@
   {
     "id": "SAMSUNG 三星 Galaxy A57 5G (12G/512G)",
     "title": "SAMSUNG 三星 Galaxy A57 5G (12G/512G)",
-    "price": 18990,
+    "price": 19990,
     "msrp": 25990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -1202,7 +1210,7 @@
   {
     "id": "SAMSUNG 三星 Galaxy S25+ (256GB)",
     "title": "SAMSUNG 三星 Galaxy S25+ (256GB)",
-    "price": 22390,
+    "price": 22590,
     "msrp": 34900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
