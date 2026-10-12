@@ -34,7 +34,7 @@
   {
     "id": "Apple 蘋果 iPhone 18 Pro Max (256GB)",
     "title": "Apple 蘋果 iPhone 18 Pro Max (256GB)",
-    "price": 49290,
+    "price": 49190,
     "msrp": 49900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -66,7 +66,7 @@
   {
     "id": "Apple 蘋果 iPhone 18 Pro (256GB)",
     "title": "Apple 蘋果 iPhone 18 Pro (256GB)",
-    "price": 43790,
+    "price": 43490,
     "msrp": 44900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -74,7 +74,7 @@
   {
     "id": "Apple 蘋果 iPhone 18 Pro (512GB)",
     "title": "Apple 蘋果 iPhone 18 Pro (512GB)",
-    "price": 51390,
+    "price": 51290,
     "msrp": 51900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -82,7 +82,7 @@
   {
     "id": "Apple 蘋果 iPhone 18 Pro (1TB)",
     "title": "Apple 蘋果 iPhone 18 Pro (1TB)",
-    "price": 65990,
+    "price": 65890,
     "msrp": 66900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -90,7 +90,7 @@
   {
     "id": "Apple 蘋果 iPhone 18 Pro (2TB)",
     "title": "Apple 蘋果 iPhone 18 Pro (2TB)",
-    "price": 84890,
+    "price": 84690,
     "msrp": 88900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -130,7 +130,7 @@
   {
     "id": "Apple 蘋果 iPhone 17 Pro (256GB)",
     "title": "Apple 蘋果 iPhone 17 Pro (256GB)",
-    "price": 36790,
+    "price": 36690,
     "msrp": 39900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -152,6 +152,14 @@
     "url": "https://www.miko3c.com/price/phone/"
   },
   {
+    "id": "HONOR 600S 5G (6G/128G)",
+    "title": "HONOR 600S 5G (6G/128G)",
+    "price": 8390,
+    "msrp": 10990,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
     "id": "HONOR 600 Lite (8G/256G)",
     "title": "HONOR 600 Lite (8G/256G)",
     "price": 12490,
@@ -162,7 +170,7 @@
   {
     "id": "HONOR 600 Pro (12G/512G)",
     "title": "HONOR 600 Pro (12G/512G)",
-    "price": 24490,
+    "price": 23990,
     "msrp": 29990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -490,7 +498,7 @@
   {
     "id": "Google Pixel 11 (12G/256G)",
     "title": "Google Pixel 11 (12G/256G)",
-    "price": 24490,
+    "price": 23990,
     "msrp": 29990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -500,6 +508,14 @@
     "title": "Google Pixel 11 (12G/512G)",
     "price": 27990,
     "msrp": 33990,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "SAMSUNG 三星 Galaxy Z Fold8",
+    "title": "SAMSUNG 三星 Galaxy Z Fold8",
+    "price": 48490,
+    "msrp": 59900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
@@ -562,7 +578,7 @@
   {
     "id": "OPPO Reno16 (12/256GB)",
     "title": "OPPO Reno16 (12/256GB)",
-    "price": 19390,
+    "price": 18490,
     "msrp": 26990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -1216,26 +1232,10 @@
     "url": "https://www.miko3c.com/price/phone/"
   },
   {
-    "id": "Redmi 紅米 Note 14 Pro+ 5G",
-    "title": "Redmi 紅米 Note 14 Pro+ 5G",
-    "price": 7990,
-    "msrp": 11999,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
     "id": "Benten 奔騰 F72 4G",
     "title": "Benten 奔騰 F72 4G",
     "price": 1690,
     "msrp": 2990,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
-    "id": "Motorola edge 50 Pro (12G+256G)",
-    "title": "Motorola edge 50 Pro (12G+256G)",
-    "price": 9490,
-    "msrp": 16990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
