@@ -106,7 +106,7 @@
   {
     "id": "Apple 蘋果 iPhone 17 Pro Max (256GB)",
     "title": "Apple 蘋果 iPhone 17 Pro Max (256GB)",
-    "price": 41290,
+    "price": 40990,
     "msrp": 44900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -114,7 +114,7 @@
   {
     "id": "Apple 蘋果 iPhone 17 Pro Max (512GB)",
     "title": "Apple 蘋果 iPhone 17 Pro Max (512GB)",
-    "price": 48290,
+    "price": 47990,
     "msrp": 51900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -122,7 +122,7 @@
   {
     "id": "Apple 蘋果 iPhone 17 Pro Max (1TB)",
     "title": "Apple 蘋果 iPhone 17 Pro Max (1TB)",
-    "price": 55890,
+    "price": 55490,
     "msrp": 58900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -354,7 +354,7 @@
   {
     "id": "Redmi 紅米 17 5G (4G/128G)",
     "title": "Redmi 紅米 17 5G (4G/128G)",
-    "price": 6490,
+    "price": 6390,
     "msrp": 8999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -700,22 +700,6 @@
     "title": "vivo X300 FE (酷玩黑)",
     "price": 20990,
     "msrp": 27990,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
-    "id": "realme Note 80 (風暴黑)",
-    "title": "realme Note 80 (風暴黑)",
-    "price": 3590,
-    "msrp": 4990,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
-    "id": "realme Note 80 (冰河藍)",
-    "title": "realme Note 80 (冰河藍)",
-    "price": 3590,
-    "msrp": 4990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
@@ -1082,7 +1066,7 @@
   {
     "id": "Redmi 紅米 15C (4GB+128GB)",
     "title": "Redmi 紅米 15C (4GB+128GB)",
-    "price": 3790,
+    "price": 3690,
     "msrp": 4499,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -1196,14 +1180,6 @@
     "title": "Google Pixel 9a (256GB)",
     "price": 12390,
     "msrp": 19990,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
-    "id": "SAMSUNG 三星 Galaxy S25 Ultra (256GB)",
-    "title": "SAMSUNG 三星 Galaxy S25 Ultra (256GB)",
-    "price": 31490,
-    "msrp": 43900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
