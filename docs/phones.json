@@ -34,7 +34,7 @@
   {
     "id": "Apple 蘋果 iPhone 18 Pro Max (256GB)",
     "title": "Apple 蘋果 iPhone 18 Pro Max (256GB)",
-    "price": 48990,
+    "price": 48890,
     "msrp": 49900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -106,7 +106,7 @@
   {
     "id": "Apple 蘋果 iPhone 17 Pro Max (256GB)",
     "title": "Apple 蘋果 iPhone 17 Pro Max (256GB)",
-    "price": 40990,
+    "price": 40790,
     "msrp": 44900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -130,8 +130,16 @@
   {
     "id": "Apple 蘋果 iPhone 17 Pro (256GB)",
     "title": "Apple 蘋果 iPhone 17 Pro (256GB)",
-    "price": 36690,
+    "price": 36490,
     "msrp": 39900,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "Apple 蘋果 iPhone 17 Pro (512GB)",
+    "title": "Apple 蘋果 iPhone 17 Pro (512GB)",
+    "price": 46190,
+    "msrp": 46900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
