@@ -66,7 +66,7 @@
   {
     "id": "Apple 蘋果 iPhone 18 Pro (256GB)",
     "title": "Apple 蘋果 iPhone 18 Pro (256GB)",
-    "price": 43490,
+    "price": 43390,
     "msrp": 44900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -74,7 +74,7 @@
   {
     "id": "Apple 蘋果 iPhone 18 Pro (512GB)",
     "title": "Apple 蘋果 iPhone 18 Pro (512GB)",
-    "price": 50990,
+    "price": 50890,
     "msrp": 51900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -82,7 +82,7 @@
   {
     "id": "Apple 蘋果 iPhone 18 Pro (1TB)",
     "title": "Apple 蘋果 iPhone 18 Pro (1TB)",
-    "price": 65890,
+    "price": 65790,
     "msrp": 66900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -90,7 +90,7 @@
   {
     "id": "Apple 蘋果 iPhone 18 Pro (2TB)",
     "title": "Apple 蘋果 iPhone 18 Pro (2TB)",
-    "price": 84490,
+    "price": 83990,
     "msrp": 88900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -370,7 +370,7 @@
   {
     "id": "Redmi 紅米 Note 17 5G (6G/128G)",
     "title": "Redmi 紅米 Note 17 5G (6G/128G)",
-    "price": 8390,
+    "price": 8290,
     "msrp": 10999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -378,7 +378,7 @@
   {
     "id": "Redmi 紅米 Note 17 5G (8G/256G)",
     "title": "Redmi 紅米 Note 17 5G (8G/256G)",
-    "price": 9290,
+    "price": 8990,
     "msrp": 11999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -410,7 +410,7 @@
   {
     "id": "Redmi 紅米 Note 17 Pro 5G (8G/256G)",
     "title": "Redmi 紅米 Note 17 Pro 5G (8G/256G)",
-    "price": 11490,
+    "price": 10990,
     "msrp": 12999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -418,7 +418,7 @@
   {
     "id": "Redmi 紅米 Note 17 Pro 5G (12G/256G)",
     "title": "Redmi 紅米 Note 17 Pro 5G (12G/256G)",
-    "price": 12490,
+    "price": 11990,
     "msrp": 13999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -1100,14 +1100,6 @@
     "title": "Google Pixel 10 Pro XL",
     "price": 29790,
     "msrp": 39990,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
-    "id": "Google Pixel 10 Pro (128GB)",
-    "title": "Google Pixel 10 Pro (128GB)",
-    "price": 23890,
-    "msrp": 33490,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
