@@ -74,7 +74,7 @@
   {
     "id": "Apple 蘋果 iPhone 18 Pro (512GB)",
     "title": "Apple 蘋果 iPhone 18 Pro (512GB)",
-    "price": 50490,
+    "price": 50290,
     "msrp": 51900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -82,7 +82,7 @@
   {
     "id": "Apple 蘋果 iPhone 18 Pro (1TB)",
     "title": "Apple 蘋果 iPhone 18 Pro (1TB)",
-    "price": 65490,
+    "price": 65290,
     "msrp": 66900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -90,7 +90,7 @@
   {
     "id": "Apple 蘋果 iPhone 18 Pro (2TB)",
     "title": "Apple 蘋果 iPhone 18 Pro (2TB)",
-    "price": 83990,
+    "price": 83490,
     "msrp": 88900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -522,7 +522,7 @@
   {
     "id": "SAMSUNG 三星 Galaxy Z Fold8",
     "title": "SAMSUNG 三星 Galaxy Z Fold8",
-    "price": 48490,
+    "price": 47990,
     "msrp": 59900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -684,30 +684,6 @@
     "title": "索尼 SONY Xperia 1 VIII (12G/512G)",
     "price": 45490,
     "msrp": 50880,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
-    "id": "vivo X300 FE (雅霧紫)",
-    "title": "vivo X300 FE (雅霧紫)",
-    "price": 20990,
-    "msrp": 27990,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
-    "id": "vivo X300 FE (耀動白)",
-    "title": "vivo X300 FE (耀動白)",
-    "price": 20990,
-    "msrp": 27990,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
-    "id": "vivo X300 FE (酷玩黑)",
-    "title": "vivo X300 FE (酷玩黑)",
-    "price": 20990,
-    "msrp": 27990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
@@ -1004,22 +980,6 @@
     "title": "Motorola edge 70 (灰色)",
     "price": 10990,
     "msrp": 16990,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
-    "id": "Redmi 紅米 Note 15 4G (6+128GB)",
-    "title": "Redmi 紅米 Note 15 4G (6+128GB)",
-    "price": 4790,
-    "msrp": 5999,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
-    "id": "Redmi 紅米 Note 15 4G (8+256GB)",
-    "title": "Redmi 紅米 Note 15 4G (8+256GB)",
-    "price": 5690,
-    "msrp": 6999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
