@@ -66,7 +66,7 @@
   {
     "id": "Apple 蘋果 iPhone 18 Pro (256GB)",
     "title": "Apple 蘋果 iPhone 18 Pro (256GB)",
-    "price": 43190,
+    "price": 42990,
     "msrp": 44900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -458,7 +458,7 @@
   {
     "id": "Google Pixel 11 Pro Fold (256GB)",
     "title": "Google Pixel 11 Pro Fold (256GB)",
-    "price": 54390,
+    "price": 52990,
     "msrp": 60990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -466,7 +466,7 @@
   {
     "id": "Google Pixel 11 Pro Fold (512GB)",
     "title": "Google Pixel 11 Pro Fold (512GB)",
-    "price": 60990,
+    "price": 57990,
     "msrp": 64990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -482,7 +482,7 @@
   {
     "id": "Google Pixel 11 Pro XL (16/512GB)",
     "title": "Google Pixel 11 Pro XL (16/512GB)",
-    "price": 40890,
+    "price": 40590,
     "msrp": 46990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -984,18 +984,18 @@
     "url": "https://www.miko3c.com/price/phone/"
   },
   {
-    "id": "Redmi 紅米 Note 15 Pro+ 5G (12+256GB)",
-    "title": "Redmi 紅米 Note 15 Pro+ 5G (12+256GB)",
-    "price": 10790,
-    "msrp": 12999,
+    "id": "Redmi 紅米 Note 15 4G (6+128GB)",
+    "title": "Redmi 紅米 Note 15 4G (6+128GB)",
+    "price": 4890,
+    "msrp": 5999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
   {
-    "id": "Redmi 紅米 Note 15 5G (8+256GB)",
-    "title": "Redmi 紅米 Note 15 5G (8+256GB)",
-    "price": 6590,
-    "msrp": 9999,
+    "id": "Redmi 紅米 Note 15 Pro+ 5G (12+256GB)",
+    "title": "Redmi 紅米 Note 15 Pro+ 5G (12+256GB)",
+    "price": 10790,
+    "msrp": 12999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
