@@ -42,7 +42,7 @@
   {
     "id": "Apple 蘋果 iPhone 18 Pro Max (512GB)",
     "title": "Apple 蘋果 iPhone 18 Pro Max (512GB)",
-    "price": 55790,
+    "price": 55690,
     "msrp": 56900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -58,7 +58,7 @@
   {
     "id": "Apple 蘋果 iPhone 18 Pro Max (2TB)",
     "title": "Apple 蘋果 iPhone 18 Pro Max (2TB)",
-    "price": 88690,
+    "price": 88490,
     "msrp": 93900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -130,7 +130,7 @@
   {
     "id": "Apple 蘋果 iPhone 17 Pro (256GB)",
     "title": "Apple 蘋果 iPhone 17 Pro (256GB)",
-    "price": 36290,
+    "price": 36190,
     "msrp": 39900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -258,7 +258,7 @@
   {
     "id": "OPPO Find X9s (沉穩鈦)",
     "title": "OPPO Find X9s (沉穩鈦)",
-    "price": 19390,
+    "price": 18990,
     "msrp": 32990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -266,7 +266,7 @@
   {
     "id": "OPPO Find X9s (元氣橙)",
     "title": "OPPO Find X9s (元氣橙)",
-    "price": 19390,
+    "price": 18990,
     "msrp": 32990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -274,7 +274,7 @@
   {
     "id": "OPPO Find N6 (旭日暖橘)",
     "title": "OPPO Find N6 (旭日暖橘)",
-    "price": 57490,
+    "price": 55990,
     "msrp": 68990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -282,7 +282,7 @@
   {
     "id": "OPPO Find N6 (無界鈦)",
     "title": "OPPO Find N6 (無界鈦)",
-    "price": 57490,
+    "price": 55690,
     "msrp": 68990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -314,7 +314,7 @@
   {
     "id": "OPPO A7 Pro 5G",
     "title": "OPPO A7 Pro 5G",
-    "price": 10990,
+    "price": 9990,
     "msrp": 13990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -362,7 +362,7 @@
   {
     "id": "POCO F9 Ultra (12+256GB)",
     "title": "POCO F9 Ultra (12+256GB)",
-    "price": 24390,
+    "price": 23790,
     "msrp": 26999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -370,7 +370,7 @@
   {
     "id": "POCO F9 Ultra (16+512GB)",
     "title": "POCO F9 Ultra (16+512GB)",
-    "price": 27290,
+    "price": 26790,
     "msrp": 29999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -578,7 +578,7 @@
   {
     "id": "OPPO Reno16 F (8/128GB)",
     "title": "OPPO Reno16 F (8/128GB)",
-    "price": 10590,
+    "price": 10490,
     "msrp": 18990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -586,7 +586,7 @@
   {
     "id": "OPPO Reno16 F (8/256GB)",
     "title": "OPPO Reno16 F (8/256GB)",
-    "price": 12390,
+    "price": 12190,
     "msrp": 19990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -602,7 +602,7 @@
   {
     "id": "OPPO Reno16 (12/256GB)",
     "title": "OPPO Reno16 (12/256GB)",
-    "price": 18490,
+    "price": 18290,
     "msrp": 26990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -736,26 +736,18 @@
     "url": "https://www.miko3c.com/price/phone/"
   },
   {
-    "id": "POCO X8 Pro (8+256GB)",
-    "title": "POCO X8 Pro (8+256GB)",
-    "price": 13690,
-    "msrp": 14999,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
     "id": "POCO X8 Pro (8+512GB)",
     "title": "POCO X8 Pro (8+512GB)",
-    "price": 14790,
-    "msrp": 15999,
+    "price": 10790,
+    "msrp": 12999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
   {
     "id": "POCO X8 Pro (12+512GB)",
     "title": "POCO X8 Pro (12+512GB)",
-    "price": 15690,
-    "msrp": 16999,
+    "price": 13490,
+    "msrp": 13999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
@@ -1084,6 +1076,14 @@
     "title": "Google Pixel 10 Pro XL",
     "price": 29790,
     "msrp": 39990,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "Google Pixel 10 (128GB)",
+    "title": "Google Pixel 10 (128GB)",
+    "price": 18990,
+    "msrp": 26490,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
