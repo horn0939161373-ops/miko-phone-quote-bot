@@ -34,7 +34,7 @@
   {
     "id": "Apple 蘋果 iPhone 18 Pro Max (256GB)",
     "title": "Apple 蘋果 iPhone 18 Pro Max (256GB)",
-    "price": 48290,
+    "price": 47990,
     "msrp": 49900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -42,7 +42,7 @@
   {
     "id": "Apple 蘋果 iPhone 18 Pro Max (512GB)",
     "title": "Apple 蘋果 iPhone 18 Pro Max (512GB)",
-    "price": 55690,
+    "price": 55390,
     "msrp": 56900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -66,7 +66,7 @@
   {
     "id": "Apple 蘋果 iPhone 18 Pro (256GB)",
     "title": "Apple 蘋果 iPhone 18 Pro (256GB)",
-    "price": 42790,
+    "price": 42690,
     "msrp": 44900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -668,30 +668,6 @@
     "title": "Motorola razr fold (單機版)",
     "price": 41690,
     "msrp": 49988,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
-    "id": "Xiaomi 小米 17T Pro (12G/256G)",
-    "title": "Xiaomi 小米 17T Pro (12G/256G)",
-    "price": 19490,
-    "msrp": 22999,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
-    "id": "Xiaomi 小米 17T Pro (12G/512G)",
-    "title": "Xiaomi 小米 17T Pro (12G/512G)",
-    "price": 20490,
-    "msrp": 24999,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
-    "id": "Xiaomi 小米 17T Pro (12G/1TB)",
-    "title": "Xiaomi 小米 17T Pro (12G/1TB)",
-    "price": 24690,
-    "msrp": 29999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
