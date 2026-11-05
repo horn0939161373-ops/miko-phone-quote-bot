@@ -34,7 +34,7 @@
   {
     "id": "Apple 蘋果 iPhone 18 Pro Max (256GB)",
     "title": "Apple 蘋果 iPhone 18 Pro Max (256GB)",
-    "price": 47990,
+    "price": 47890,
     "msrp": 49900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -42,7 +42,7 @@
   {
     "id": "Apple 蘋果 iPhone 18 Pro Max (512GB)",
     "title": "Apple 蘋果 iPhone 18 Pro Max (512GB)",
-    "price": 55390,
+    "price": 55290,
     "msrp": 56900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -50,7 +50,7 @@
   {
     "id": "Apple 蘋果 iPhone 18 Pro Max (1TB)",
     "title": "Apple 蘋果 iPhone 18 Pro Max (1TB)",
-    "price": 69990,
+    "price": 69790,
     "msrp": 71900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -74,7 +74,7 @@
   {
     "id": "Apple 蘋果 iPhone 18 Pro (512GB)",
     "title": "Apple 蘋果 iPhone 18 Pro (512GB)",
-    "price": 49590,
+    "price": 49490,
     "msrp": 51900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -90,7 +90,7 @@
   {
     "id": "Apple 蘋果 iPhone 18 Pro (2TB)",
     "title": "Apple 蘋果 iPhone 18 Pro (2TB)",
-    "price": 82990,
+    "price": 82790,
     "msrp": 88900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -572,6 +572,14 @@
     "title": "SAMSUNG 三星 Galaxy Z Flip8 (256GB)",
     "price": 29890,
     "msrp": 38900,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "SAMSUNG 三星 Galaxy Z Flip8 (512GB)",
+    "title": "SAMSUNG 三星 Galaxy Z Flip8 (512GB)",
+    "price": 33990,
+    "msrp": 44900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
