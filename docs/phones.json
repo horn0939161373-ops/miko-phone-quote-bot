@@ -2,7 +2,7 @@
   {
     "id": "Apple 蘋果 iPhone Duo (256GB)",
     "title": "Apple 蘋果 iPhone Duo (256GB)",
-    "price": 72990,
+    "price": 72790,
     "msrp": 74900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -10,7 +10,7 @@
   {
     "id": "Apple 蘋果 iPhone Duo (512GB)",
     "title": "Apple 蘋果 iPhone Duo (512GB)",
-    "price": 80890,
+    "price": 79890,
     "msrp": 81900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -18,7 +18,7 @@
   {
     "id": "Apple 蘋果 iPhone Duo (1TB)",
     "title": "Apple 蘋果 iPhone Duo (1TB)",
-    "price": 95690,
+    "price": 95290,
     "msrp": 96900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -42,7 +42,7 @@
   {
     "id": "Apple 蘋果 iPhone 18 Pro Max (512GB)",
     "title": "Apple 蘋果 iPhone 18 Pro Max (512GB)",
-    "price": 54890,
+    "price": 54790,
     "msrp": 56900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -82,7 +82,7 @@
   {
     "id": "Apple 蘋果 iPhone 18 Pro (1TB)",
     "title": "Apple 蘋果 iPhone 18 Pro (1TB)",
-    "price": 64690,
+    "price": 64390,
     "msrp": 66900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -324,6 +324,30 @@
     "title": "POCO X8 (12+256GB)",
     "price": 10790,
     "msrp": 11999,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "vivo V80 Lite (6+128GB)",
+    "title": "vivo V80 Lite (6+128GB)",
+    "price": 9990,
+    "msrp": 16990,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "vivo V80 Lite (8+128GB)",
+    "title": "vivo V80 Lite (8+128GB)",
+    "price": 10990,
+    "msrp": 18990,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "vivo V80 Lite (8+256GB)",
+    "title": "vivo V80 Lite (8+256GB)",
+    "price": 12990,
+    "msrp": 20990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
@@ -746,7 +770,7 @@
   {
     "id": "POCO X8 Pro Max (12+512GB)",
     "title": "POCO X8 Pro Max (12+512GB)",
-    "price": 16790,
+    "price": 16490,
     "msrp": 19999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -858,7 +882,7 @@
   {
     "id": "vivo V70 FE (8G/256G)",
     "title": "vivo V70 FE (8G/256G)",
-    "price": 12390,
+    "price": 11990,
     "msrp": 17990,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
