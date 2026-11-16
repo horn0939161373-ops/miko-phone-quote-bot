@@ -2,7 +2,7 @@
   {
     "id": "Apple 蘋果 iPhone Duo (256GB)",
     "title": "Apple 蘋果 iPhone Duo (256GB)",
-    "price": 72690,
+    "price": 72490,
     "msrp": 74900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -10,7 +10,7 @@
   {
     "id": "Apple 蘋果 iPhone Duo (512GB)",
     "title": "Apple 蘋果 iPhone Duo (512GB)",
-    "price": 79690,
+    "price": 79590,
     "msrp": 81900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -106,7 +106,7 @@
   {
     "id": "Apple 蘋果 iPhone 17 Pro Max (256GB)",
     "title": "Apple 蘋果 iPhone 17 Pro Max (256GB)",
-    "price": 40590,
+    "price": 40490,
     "msrp": 44900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -114,7 +114,7 @@
   {
     "id": "Apple 蘋果 iPhone 17 Pro Max (512GB)",
     "title": "Apple 蘋果 iPhone 17 Pro Max (512GB)",
-    "price": 47790,
+    "price": 47690,
     "msrp": 51900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -122,7 +122,7 @@
   {
     "id": "Apple 蘋果 iPhone 17 Pro Max (1TB)",
     "title": "Apple 蘋果 iPhone 17 Pro Max (1TB)",
-    "price": 55490,
+    "price": 54990,
     "msrp": 58900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -138,7 +138,7 @@
   {
     "id": "Apple 蘋果 iPhone 17 Pro (512GB)",
     "title": "Apple 蘋果 iPhone 17 Pro (512GB)",
-    "price": 46190,
+    "price": 45890,
     "msrp": 46900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -450,7 +450,7 @@
   {
     "id": "Redmi 紅米 Note 17 5G (6G/128G)",
     "title": "Redmi 紅米 Note 17 5G (6G/128G)",
-    "price": 7990,
+    "price": 7790,
     "msrp": 10999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -458,7 +458,7 @@
   {
     "id": "Redmi 紅米 Note 17 5G (8G/256G)",
     "title": "Redmi 紅米 Note 17 5G (8G/256G)",
-    "price": 8590,
+    "price": 8290,
     "msrp": 11999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -516,14 +516,6 @@
     "title": "Redmi 紅米 Note 17 4G (6G/128G)",
     "price": 5990,
     "msrp": 6999,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
-    "id": "Redmi 紅米 Note 17 4G (8G/256G)",
-    "title": "Redmi 紅米 Note 17 4G (8G/256G)",
-    "price": 6990,
-    "msrp": 7999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
@@ -770,7 +762,7 @@
   {
     "id": "POCO X8 Pro Max (12+256GB)",
     "title": "POCO X8 Pro Max (12+256GB)",
-    "price": 15790,
+    "price": 15390,
     "msrp": 18999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -778,7 +770,7 @@
   {
     "id": "POCO X8 Pro Max (12+512GB)",
     "title": "POCO X8 Pro Max (12+512GB)",
-    "price": 16490,
+    "price": 16290,
     "msrp": 19999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -920,14 +912,6 @@
     "url": "https://www.miko3c.com/price/phone/"
   },
   {
-    "id": "Xiaomi 小米 17 (512GB)",
-    "title": "Xiaomi 小米 17 (512GB)",
-    "price": 23390,
-    "msrp": 26999,
-    "cover": "",
-    "url": "https://www.miko3c.com/price/phone/"
-  },
-  {
     "id": "SAMSUNG 三星 Galaxy S26 (256GB)",
     "title": "SAMSUNG 三星 Galaxy S26 (256GB)",
     "price": 25590,
@@ -1034,7 +1018,7 @@
   {
     "id": "Redmi 紅米 Note 15 Pro+ 5G (12+256GB)",
     "title": "Redmi 紅米 Note 15 Pro+ 5G (12+256GB)",
-    "price": 10790,
+    "price": 10390,
     "msrp": 12999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -1082,7 +1066,7 @@
   {
     "id": "POCO F8 Ultra (12+256GB)",
     "title": "POCO F8 Ultra (12+256GB)",
-    "price": 19990,
+    "price": 19790,
     "msrp": 21999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
