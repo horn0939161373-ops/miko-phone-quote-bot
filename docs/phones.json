@@ -58,7 +58,7 @@
   {
     "id": "Apple 蘋果 iPhone 18 Pro Max (2TB)",
     "title": "Apple 蘋果 iPhone 18 Pro Max (2TB)",
-    "price": 88490,
+    "price": 87490,
     "msrp": 93900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -90,7 +90,7 @@
   {
     "id": "Apple 蘋果 iPhone 18 Pro (2TB)",
     "title": "Apple 蘋果 iPhone 18 Pro (2TB)",
-    "price": 82790,
+    "price": 82590,
     "msrp": 88900,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -434,7 +434,7 @@
   {
     "id": "Redmi 紅米 17 5G (4G/128G)",
     "title": "Redmi 紅米 17 5G (4G/128G)",
-    "price": 5990,
+    "price": 5890,
     "msrp": 8999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -442,7 +442,7 @@
   {
     "id": "Redmi 紅米 17 5G (6G/256G)",
     "title": "Redmi 紅米 17 5G (6G/256G)",
-    "price": 6690,
+    "price": 6490,
     "msrp": 9999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -450,7 +450,7 @@
   {
     "id": "Redmi 紅米 Note 17 5G (6G/128G)",
     "title": "Redmi 紅米 Note 17 5G (6G/128G)",
-    "price": 7790,
+    "price": 7690,
     "msrp": 10999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
@@ -484,6 +484,30 @@
     "title": "SAMSUNG 三星 Galaxy S26 FE (巧酥黑)",
     "price": 19990,
     "msrp": 25900,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "Redmi 紅米 Note 17 Pro Max 5G (8G/256G)",
+    "title": "Redmi 紅米 Note 17 Pro Max 5G (8G/256G)",
+    "price": 13490,
+    "msrp": 14999,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "Redmi 紅米 Note 17 Pro Max 5G (12G/256G)",
+    "title": "Redmi 紅米 Note 17 Pro Max 5G (12G/256G)",
+    "price": 14490,
+    "msrp": 15999,
+    "cover": "",
+    "url": "https://www.miko3c.com/price/phone/"
+  },
+  {
+    "id": "Redmi 紅米 Note 17 Pro Max 5G (8G/512G)",
+    "title": "Redmi 紅米 Note 17 Pro Max 5G (8G/512G)",
+    "price": 15490,
+    "msrp": 16999,
     "cover": "",
     "url": "https://www.miko3c.com/price/phone/"
   },
